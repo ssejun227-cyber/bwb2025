@@ -1,0 +1,61 @@
+/* ========================================
+   Admin Gallery Styles
+   갤러리 편집 전용 스타일
+   ======================================== */
+
+.gallery-day-card {
+  border-left: 4px solid #9b59b6;
+}
+
+.gallery-slides-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.gallery-slide-card {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.gallery-slide-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.gallery-slide-header .form-input {
+  flex: 1;
+}
+
+.gallery-photos-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-photo-item {
+  position: relative;
+}
+
+.gallery-photo-preview {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.gallery-photo-item .btn--danger {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 2px 6px;
+  font-size: 10px;
+}

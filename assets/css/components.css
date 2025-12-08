@@ -1,0 +1,185 @@
+/* ========================================
+   Components - 공통 컴포넌트
+   ======================================== */
+
+/* 버튼 */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-white);
+}
+
+.btn--primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn--outline {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+.btn--outline:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text-white);
+}
+
+/* 인물 카드 */
+.card {
+  width: 230px;
+  text-align: center;
+  padding: var(--spacing-sm);
+}
+
+.card__image {
+  width: 210px;
+  height: 300px;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+  object-position: top;
+  margin: 0 auto var(--spacing-sm);
+}
+
+.card__role {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-xs);
+}
+
+.card__name {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  margin-bottom: var(--spacing-xs);
+}
+
+.card__desc {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  line-height: 1.4;
+}
+
+
+
+/* 로고 그리드 */
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.logo-grid__item {
+  max-height: 80px;
+  max-width: 150px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* 스크롤 탑 버튼 */
+.scroll-top {
+  position: fixed;
+  bottom: var(--spacing-md);
+  right: var(--spacing-md);
+  width: 48px;
+  height: 48px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.scroll-top--visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-top:hover {
+  background-color: var(--color-bg-gray);
+  transform: translateY(-2px);
+}
+
+/* 사이드 네비게이션 */
+.side-nav {
+  position: fixed;
+  right: var(--spacing-md);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+}
+
+.side-nav--visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.side-nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.side-nav__link {
+  color: #666;
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  transition: var(--transition);
+  text-align: center;
+}
+
+.side-nav__link:hover,
+.side-nav__link--active {
+  opacity: 1;
+  color: var(--color-primary);
+}
+
+
+
+/* 반응형 */
+@media (min-width: 768px) {
+  .card {
+    width: 250px;
+  }
+  
+  .card__image {
+    width: 230px;
+    height: 300px;
+  }
+  
+  .logo-grid__item {
+    max-height: 100px;
+    max-width: 180px;
+  }
+  
+  .side-nav {
+    display: block;
+  }
+  
+  .side-nav--visible {
+    opacity: 1;
+    visibility: visible;
+  }
+}
