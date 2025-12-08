@@ -1,0 +1,867 @@
+/* ========================================
+   Sections - About, Organization, Sponsor, Speakers, Program, Footer
+   ======================================== */
+
+/* ---- Links Section (버튼 영역) ---- */
+.links-section {
+  padding: var(--spacing-md) 0;
+  background-color: var(--color-bg-gray);
+}
+
+.links-section__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  flex-wrap: nowrap;
+}
+
+.links-section__btn {
+  min-width: 100px;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .links-section__buttons {
+    gap: var(--spacing-sm);
+  }
+  
+  .links-section__btn {
+    min-width: 150px;
+    padding: var(--spacing-xs) var(--spacing-md);
+    font-size: var(--font-size-base);
+  }
+}
+
+/* ---- About ---- */
+.about {
+  background-color: var(--color-bg);
+}
+
+.about__text {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 6px;
+  color: var(--color-text);
+  text-align: center;
+}
+
+/* About 마지막 문단 강조 */
+.about__text--highlight {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-top: var(--spacing-lg);
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .about__text {
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+  
+  .about__text--highlight {
+    font-size: 24px;
+  }
+}
+
+.about__text strong {
+  color: var(--color-primary);
+}
+
+/* About 미디어 (이미지/비디오/유튜브) */
+.about__media {
+  margin-top: var(--spacing-lg);
+}
+
+.about__media:empty {
+  display: none;
+}
+
+.about__image {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.about__video {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.about__youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--border-radius);
+}
+
+/* ---- 주최/주관/후원 공통 ---- */
+.hosts {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.hosts .section__content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 전체 컨테이너 */
+.hosts .section__content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 줄 컨테이너 */
+.hosts__row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+/* 후원 줄은 wrap 허용 */
+.hosts__row:last-child {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 개별 그룹 (라벨 + 로고들) */
+.hosts__group {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  flex-shrink: 0;
+}
+
+.hosts__group--full {
+  width: 100%;
+  justify-content: center;
+}
+
+/* 라벨 */
+.hosts__label {
+  flex-shrink: 0;
+  min-width: 32px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-text-light);
+}
+
+/* 로고 컨테이너 */
+.hosts__logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+}
+
+/* 개별 로고 */
+.hosts__logo {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* 모바일: 라벨 옆에 로고들 */
+.hosts .section__content {
+  padding-left: 13px;
+}
+
+.hosts__row {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hosts__group {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  margin-bottom: 4px;
+}
+
+.hosts__label {
+  min-width: 28px;
+  padding-top: 4px;
+}
+
+@media (min-width: 768px) {
+  .hosts__row {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .hosts__group {
+    width: auto;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: 0;
+  }
+  
+  .hosts__label {
+    min-width: 40px;
+    font-size: 14px;
+    padding-top: 0;
+  }
+  
+  .hosts__logos {
+    flex-wrap: nowrap;
+    gap: 1px;
+    flex: none;
+  }
+  
+  .hosts__logo {
+    height: 55px;
+    flex-shrink: 1;
+    min-width: 0;
+  }
+}
+
+
+
+/* ---- Organization ---- */
+.org {
+  background-color: var(--color-bg-gray);
+}
+
+.org__group {
+  margin-bottom: var(--spacing-xl);
+}
+
+.org__group .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 0;
+}
+
+.org__group .card {
+  width: calc(50% - 4px);
+}
+
+.org__group .card__image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+}
+
+.org__group .card__name {
+  font-size: 18px;
+}
+
+.org__group .card__role {
+  font-size: 12px;
+  color: #6B9AE8;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.org__group .card__desc {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.org__group-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+  text-align: center;
+}
+
+.org__logos {
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.org__logos-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+}
+
+@media (min-width: 768px) {
+  .org__group .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+  }
+  
+  .org__group .card {
+    width: 250px;
+    max-width: none;
+  }
+  
+  .org__group .card__image {
+    width: 230px;
+    height: 300px;
+  }
+  
+  .org__group .card__name {
+    font-size: var(--font-size-lg);
+  }
+  
+  .org__group .card__role {
+    font-size: var(--font-size-sm);
+  }
+  
+  .org__group .card__desc {
+    font-size: var(--font-size-sm);
+  }
+  
+  .org__group-title {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-lg);
+  }
+}
+
+/* ---- Sponsor ---- */
+.sponsor {
+  background-color: #fff;
+}
+
+.sponsor__logos {
+  margin-bottom: var(--spacing-xl);
+}
+
+.sponsor__members {
+  margin-bottom: var(--spacing-lg);
+}
+
+.sponsor__members .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 0;
+}
+
+.sponsor__members .card {
+  width: calc(50% - 4px);
+  max-width: 150px;
+}
+
+.sponsor__members .card {
+  width: 100%;
+}
+
+.sponsor__members .card__image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+}
+
+.sponsor__members .card__name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sponsor__members .card__role {
+  font-size: 13px;
+  color: #6B9AE8;
+  margin-bottom: 4px;
+}
+
+.sponsor__members .card__desc {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.sponsor__title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+@media (min-width: 768px) {
+  .sponsor__members .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+    justify-content: center;
+  }
+  
+  .sponsor__members .card {
+    width: 250px;
+    max-width: none;
+  }
+  
+  .sponsor__members .card__image {
+    width: 230px;
+    height: 300px;
+  }
+  
+  .sponsor__members .card__name {
+    font-size: 22px;
+  }
+  
+  .sponsor__members .card__role {
+    font-size: 14px;
+  }
+  
+  .sponsor__members .card__desc {
+    font-size: var(--font-size-sm);
+  }
+  
+  .sponsor__title {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-lg);
+  }
+}
+
+/* ---- Speakers ---- */
+.speaker {
+  background-color: #1a1a1a;
+}
+
+.speaker__section-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text-white);
+}
+
+.speaker__group {
+  margin-bottom: var(--spacing-xl);
+}
+
+.speaker__group .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  padding: 0;
+}
+
+.speaker__group .card {
+  width: 100%;
+}
+
+.speaker__group .card__image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+}
+
+.speaker__group .card__name {
+  font-size: 18px;
+}
+
+.speaker__group .card__desc {
+  font-size: 12px;
+}
+
+.speaker__spacer {
+  height: 30px;
+}
+
+.speaker__title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text-white);
+}
+
+.speaker__subtitle {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+  color: #888;
+}
+
+.speaker .card__name {
+  color: var(--color-text-white);
+}
+
+.speaker .card__desc {
+  color: #aaa;
+}
+
+@media (min-width: 768px) {
+  .speaker__section-title {
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--spacing-xl);
+  }
+  
+  .speaker__group .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+    justify-content: center;
+  }
+  
+  .speaker__group .card {
+    width: 250px;
+    max-width: none;
+  }
+  
+  .speaker__group .card__image {
+    width: 230px;
+    height: 300px;
+  }
+  
+  .speaker__group .card__name {
+    font-size: var(--font-size-lg);
+  }
+  
+  .speaker__group .card__desc {
+    font-size: var(--font-size-sm);
+  }
+  
+  .speaker__spacer {
+    height: 60px;
+  }
+  
+  .speaker__title {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .speaker__subtitle {
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--spacing-lg);
+  }
+}
+
+/* ---- Program ---- */
+.program {
+  background-color: var(--color-bg);
+  padding-bottom: var(--spacing-md);
+}
+
+/* 헤더 */
+.program__header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.program__category {
+  font-size: 18px;
+  font-style: italic;
+  color: #6B7FD3;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.program__title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+  letter-spacing: -0.5px;
+}
+
+.program__venue {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.program__notice {
+  font-size: 14px;
+  color: #888;
+}
+
+/* 탭 */
+.program__tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  background-color: #e5e5e5;
+  border-radius: 30px;
+  padding: 5px;
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.program__tab {
+  flex: 1;
+  padding: 12px 30px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: #888;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.program__tab--active {
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Day 콘텐츠 */
+.program__day {
+  display: none;
+}
+
+.program__day--active {
+  display: block;
+}
+
+.program__day-wrapper {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.program__date {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  padding-top: 45px;
+  flex-shrink: 0;
+  letter-spacing: 2px;
+}
+
+.program__list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.program__item {
+  margin-bottom: 40px;
+}
+
+.program__time {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+.program__session {
+  background-color: #e8e8e8;
+  padding: 10px 24px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.program__session--blue {
+  background: linear-gradient(90deg, #5B7FD3 0%, #7B9FE3 100%);
+  color: var(--color-text-white);
+}
+
+.program__session--navy {
+  background: linear-gradient(90deg, #2C3E50 0%, #34495E 100%);
+  color: var(--color-text-white);
+}
+
+.program__session--red {
+  background: linear-gradient(90deg, #E74C3C 0%, #EC7063 100%);
+  color: var(--color-text-white);
+}
+
+.program__session--gray {
+  background: #888;
+  color: var(--color-text-white);
+}
+
+.program__session-title {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+}
+
+.program__session-subtitle {
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.program__info {
+  padding: 18px 20px 10px 45%;
+}
+
+.program__speakers,
+.program__note {
+  text-align: left;
+}
+
+.program__speaker {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+.program__speaker strong,
+.program__speaker b {
+  font-weight: 700;
+}
+
+.program__note {
+  font-size: 14px;
+  color: #666;
+}
+
+/* 반응형 */
+@media (max-width: 767px) {
+  .program__header {
+    text-align: left;
+  }
+  
+  .program__title {
+    font-size: 28px;
+  }
+  
+  .program__tabs {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  
+  .program__day-wrapper {
+    flex-direction: column;
+  }
+  
+  .program__date {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    padding-top: 30px;
+    margin-bottom: 0;
+    text-align: left;
+    position: absolute;
+    left: -25px;
+    top: 0;
+    font-size: 13px;
+  }
+  
+  .program__day-wrapper {
+    position: relative;
+    padding-left: 10px;
+    margin-left: -25px;
+  }
+  
+  .program__session {
+    padding: 12px 16px;
+  }
+  
+  .program__session-title {
+    font-size: 14px;
+  }
+  
+  .program__session-subtitle {
+    font-size: 13px;
+    margin-left: 0;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .program__info {
+    padding: 12px 0 10px 0;
+    text-align: left;
+  }
+  
+  .program__speaker {
+    font-size: 14px;
+  }
+  
+  .program__note {
+    font-size: 12px;
+  }
+}
+
+/* ---- Footer ---- */
+.footer {
+  background-color: #BDBDBD;
+  color: var(--color-text);
+  padding: var(--spacing-md) 0;
+  margin-top: 0;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer__info {
+  text-align: left;
+}
+
+.footer__title {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+}
+
+.footer__item {
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  opacity: 0.9;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__label {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.footer__value {
+  padding-left: 0.5em;
+}
+
+@media (min-width: 768px) {
+  .footer__item {
+    display: block;
+  }
+}
+
+.footer__copyright {
+  font-size: var(--font-size-sm);
+  opacity: 0.8;
+}
+
+/* 반응형 푸터 */
+@media (max-width: 767px) {
+  .footer__content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+  }
+  
+  .footer__copyright {
+    align-self: flex-end;
+  }
+}
+
+/* 반응형 */
+@media (min-width: 768px) {
+  .program__item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .program__time {
+    min-width: 80px;
+  }
+  
+  .program__content {
+    flex: 1;
+  }
+}

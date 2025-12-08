@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confer Admin</title>
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <div class="admin">
+    <!-- 사이드바 -->
+    <aside class="sidebar">
+      <div class="sidebar__header">
+        <h1 class="sidebar__title">Confer Admin</h1>
+        <div class="lang-tabs">
+          <button class="lang-tab lang-tab--active" data-lang="ko">한국어</button>
+          <button class="lang-tab" data-lang="en">English</button>
+        </div>
+      </div>
+      <nav class="sidebar__nav">
+        <a href="#site" class="sidebar__link active" data-section="site">사이트 설정</a>
+        <a href="#sections" class="sidebar__link" data-section="sections">섹션 관리</a>
+        <a href="#hero" class="sidebar__link" data-section="hero">Hero</a>
+        <a href="#links" class="sidebar__link" data-section="links">링크 버튼</a>
+        <a href="#about" class="sidebar__link" data-section="about">About</a>
+        <a href="#hosts" class="sidebar__link" data-section="hosts">주최/주관/후원</a>
+        <a href="#organization" class="sidebar__link" data-section="organization">Organization</a>
+        <a href="#sponsor" class="sidebar__link" data-section="sponsor">Sponsor</a>
+        <a href="#speakers" class="sidebar__link" data-section="speakers">Speakers</a>
+        <a href="#program" class="sidebar__link" data-section="program">Program</a>
+        <a href="#gallery" class="sidebar__link" data-section="gallery">Gallery</a>
+        <a href="#media" class="sidebar__link" data-section="media">Media</a>
+        <a href="#footer" class="sidebar__link" data-section="footer">Footer</a>
+        <a href="#mobilemenu" class="sidebar__link" data-section="mobilemenu">메뉴 아이템 추가</a>
+        <a href="#seo" class="sidebar__link" data-section="seo">SEO 설정</a>
+      </nav>
+      <div class="sidebar__actions">
+        <button class="btn btn--primary" id="saveAllBtn">전체 저장</button>
+        <button class="btn btn--secondary" id="sidebarSeoBtn">SEO 생성</button>
+        <button class="btn btn--secondary" id="previewBtn">미리보기</button>
+      </div>
+    </aside>
+
+    <!-- 메인 콘텐츠 -->
+    <main class="main">
+      <!-- 사이트 설정 -->
+      <section class="panel" id="site-panel">
+        <h2 class="panel__title">사이트 설정</h2>
+        <div class="form-group">
+          <label>사이트 제목</label>
+          <input type="text" id="site-title" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>설명</label>
+          <textarea id="site-description" class="form-textarea"></textarea>
+        </div>
+        <div class="form-group">
+          <label>키워드 (쉼표로 구분)</label>
+          <input type="text" id="site-keywords" class="form-input">
+        </div>
+      </section>
+
+      <!-- 섹션 관리 -->
+      <section class="panel" id="sections-panel" style="display:none;">
+        <h2 class="panel__title">섹션 관리</h2>
+        <p style="margin-bottom:20px;color:#666;">각 섹션의 표시 여부와 제목을 설정합니다.</p>
+        <div id="sections-list" class="items-list"></div>
+      </section>
+
+      <!-- Hero -->
+      <section class="panel" id="hero-panel" style="display:none;">
+        <h2 class="panel__title">Hero 섹션</h2>
+        <div class="form-group">
+          <label>로고 이미지</label>
+          <div class="image-upload">
+            <img id="hero-logo-preview" class="image-preview" src="" alt="">
+            <input type="file" id="hero-logo-input" accept="image/*" class="file-input">
+            <button class="btn btn--small" onclick="document.getElementById('hero-logo-input').click()">파일 선택</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>서브 타이틀</label>
+          <input type="text" id="hero-subtitle" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>메인 타이틀</label>
+          <input type="text" id="hero-title" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>슬로건</label>
+          <textarea id="hero-slogan" class="form-textarea"></textarea>
+        </div>
+        <div class="form-group">
+          <label>날짜</label>
+          <input type="text" id="hero-date" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>장소</label>
+          <input type="text" id="hero-venue" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>슬라이드 이미지</label>
+          <div id="hero-slides-list" class="items-list"></div>
+          <button class="btn btn--small" id="addSlideBtn">+ 슬라이드 추가</button>
+        </div>
+        
+        <h3 class="panel__subtitle">SNS 링크</h3>
+        <div class="form-group">
+          <label>Instagram URL (비워두면 숨김)</label>
+          <input type="text" id="hero-sns-instagram" class="form-input" placeholder="https://instagram.com/...">
+        </div>
+        <div class="form-group">
+          <label>X (Twitter) URL (비워두면 숨김)</label>
+          <input type="text" id="hero-sns-x" class="form-input" placeholder="https://x.com/...">
+        </div>
+        <div class="form-group">
+          <label>YouTube URL (비워두면 숨김)</label>
+          <input type="text" id="hero-sns-youtube" class="form-input" placeholder="https://youtube.com/...">
+        </div>
+      </section>
+
+      <!-- 링크 버튼 -->
+      <section class="panel" id="links-panel" style="display:none;">
+        <h2 class="panel__title">링크 버튼</h2>
+        <div id="links-list" class="items-list"></div>
+        <button class="btn btn--small" id="addLinkBtn">+ 링크 추가</button>
+      </section>
+
+      <!-- About -->
+      <section class="panel" id="about-panel" style="display:none;">
+        <h2 class="panel__title">About 섹션</h2>
+        <div class="form-group">
+          <label>슬로건 서브</label>
+          <input type="text" id="about-sloganSub" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>슬로건 메인</label>
+          <textarea id="about-sloganMain" class="form-textarea"></textarea>
+        </div>
+        <div class="form-group">
+          <label>본문 내용</label>
+          <div id="about-paragraphs-list" class="items-list"></div>
+          <button class="btn btn--small" id="addParagraphBtn">+ 문단 추가</button>
+        </div>
+        <div class="form-group">
+          <label>미디어 타입</label>
+          <select id="about-media-type" class="form-select" onchange="toggleAboutMedia()">
+            <option value="none">없음</option>
+            <option value="image">이미지</option>
+            <option value="video">동영상 파일</option>
+            <option value="youtube">유튜브</option>
+          </select>
+        </div>
+        <div id="about-media-image" class="form-group" style="display:none;">
+          <label>이미지</label>
+          <div class="image-upload">
+            <img id="about-image-preview" class="image-preview" src="" alt="">
+            <input type="file" id="about-image-input" accept="image/*" class="file-input">
+            <button class="btn btn--small" onclick="document.getElementById('about-image-input').click()">파일 선택</button>
+          </div>
+        </div>
+        <div id="about-media-video" class="form-group" style="display:none;">
+          <label>동영상 파일</label>
+          <div class="image-upload">
+            <video id="about-video-preview" class="image-preview" style="width:200px;height:auto;"></video>
+            <input type="file" id="about-video-input" accept="video/*" class="file-input">
+            <button class="btn btn--small" onclick="document.getElementById('about-video-input').click()">파일 선택</button>
+          </div>
+        </div>
+        <div id="about-media-youtube" class="form-group" style="display:none;">
+          <label>유튜브 URL</label>
+          <input type="text" id="about-youtube-url" class="form-input" placeholder="https://www.youtube.com/watch?v=...">
+        </div>
+      </section>
+
+      <!-- 주최/주관/후원 -->
+      <section class="panel" id="hosts-panel" style="display:none;">
+        <h2 class="panel__title">주최/주관/후원</h2>
+        <h3 class="panel__subtitle">주최</h3>
+        <div id="hosts-host-list" class="items-list"></div>
+        <button class="btn btn--small" id="addHostBtn">+ 주최 추가</button>
+        
+        <h3 class="panel__subtitle">주관</h3>
+        <div id="hosts-organizer-list" class="items-list"></div>
+        <button class="btn btn--small" id="addOrganizerBtn">+ 주관 추가</button>
+        
+        <h3 class="panel__subtitle">후원</h3>
+        <div id="hosts-support-list" class="items-list"></div>
+        <button class="btn btn--small" id="addSupportBtn">+ 후원 추가</button>
+      </section>
+
+      <!-- Organization -->
+      <section class="panel" id="organization-panel" style="display:none;">
+        <h2 class="panel__title">Organization</h2>
+        <div id="organization-groups-list" class="items-list"></div>
+        <button class="btn btn--small" id="addOrgGroupBtn">+ 그룹 추가</button>
+      </section>
+
+      <!-- Sponsor -->
+      <section class="panel" id="sponsor-panel" style="display:none;">
+        <h2 class="panel__title">Sponsor</h2>
+        <div class="form-group">
+          <label>로고 섹션 제목</label>
+          <input type="text" id="sponsor-logos-title" class="form-input" placeholder="예: 협찬사">
+        </div>
+        <h3 class="panel__subtitle">로고</h3>
+        <div id="sponsor-logos-list" class="items-list"></div>
+        <button class="btn btn--small" id="addSponsorLogoBtn">+ 로고 추가</button>
+        
+        <div class="form-group">
+          <label>멤버 섹션 제목</label>
+          <input type="text" id="sponsor-members-title" class="form-input" placeholder="예: 후원위원회">
+        </div>
+        <h3 class="panel__subtitle">멤버</h3>
+        <div id="sponsor-members-list" class="items-list"></div>
+        <button class="btn btn--small" id="addSponsorMemberBtn">+ 멤버 추가</button>
+      </section>
+
+      <!-- Speakers -->
+      <section class="panel" id="speakers-panel" style="display:none;">
+        <h2 class="panel__title">Speakers</h2>
+        <div class="form-group">
+          <label>섹션 타이틀</label>
+          <input type="text" id="speakers-section-title" class="form-input" placeholder="예: Speakers">
+        </div>
+        <div id="speakers-groups-list" class="items-list"></div>
+        <button class="btn btn--small" id="addSpeakerGroupBtn">+ 그룹 추가</button>
+        <button class="btn btn--small" id="addSpeakerSpacerBtn">+ 여백 추가</button>
+      </section>
+
+      <!-- Program -->
+      <section class="panel" id="program-panel" style="display:none;">
+        <h2 class="panel__title">Program</h2>
+        <div class="form-group">
+          <label>카테고리 (상단 작은 텍스트)</label>
+          <input type="text" id="program-category" class="form-input" placeholder="예: Main Session">
+        </div>
+        <div class="form-group">
+          <label>메인 타이틀</label>
+          <input type="text" id="program-title" class="form-input" placeholder="예: BWB2024 Program">
+        </div>
+        <div class="form-group">
+          <label>장소 정보</label>
+          <input type="text" id="program-venue" class="form-input" placeholder="예: 그랜드볼룸홀">
+        </div>
+        <div class="form-group">
+          <label>안내문</label>
+          <input type="text" id="program-notice" class="form-input" placeholder="예: * 행사 내용과 연사는 상황에 따라 변경될 수 있습니다">
+        </div>
+        <h3 class="panel__subtitle">Day 탭</h3>
+        <div id="program-days-list" class="items-list"></div>
+        <button class="btn btn--small" id="addProgramDayBtn">+ Day 추가</button>
+      </section>
+
+      <!-- Gallery -->
+      <section class="panel" id="gallery-panel" style="display:none;">
+        <h2 class="panel__title">Gallery (현장 사진)</h2>
+        <div class="form-group">
+          <label>갤러리 로고 (비어있으면 Hero 로고 사용)</label>
+          <div class="image-upload">
+            <img id="gallery-logo-preview" class="image-preview" src="" alt="">
+            <input type="file" id="gallery-logo-input" accept="image/*" class="file-input">
+            <button class="btn btn--small" onclick="document.getElementById('gallery-logo-input').click()">파일 선택</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>갤러리 타이틀</label>
+          <input type="text" id="gallery-title" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>서브타이틀</label>
+          <input type="text" id="gallery-subtitle" class="form-input">
+        </div>
+        <h3 class="panel__subtitle">날짜별 갤러리</h3>
+        <div id="gallery-days-list" class="items-list"></div>
+        <button class="btn btn--small" id="addGalleryDayBtn">+ 날짜 추가</button>
+      </section>
+
+      <!-- Media -->
+      <section class="panel" id="media-panel" style="display:none;">
+        <h2 class="panel__title">Media (언론보도)</h2>
+        <div class="form-group">
+          <label>미디어 로고 (비어있으면 Hero 로고 사용)</label>
+          <div class="image-upload">
+            <img id="media-logo-preview" class="image-preview" src="" alt="">
+            <input type="file" id="media-logo-input" accept="image/*" class="file-input">
+            <button class="btn btn--small" onclick="document.getElementById('media-logo-input').click()">파일 선택</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>미디어 타이틀</label>
+          <input type="text" id="media-title" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>서브타이틀</label>
+          <input type="text" id="media-subtitle" class="form-input">
+        </div>
+        <h3 class="panel__subtitle">주요 기사 (이미지 포함)</h3>
+        <div id="media-featured-list" class="items-list"></div>
+        <button class="btn btn--small" id="addMediaFeaturedBtn">+ 주요 기사 추가</button>
+        
+        <h3 class="panel__subtitle">기사 목록</h3>
+        <div id="media-articles-list" class="items-list"></div>
+        <button class="btn btn--small" id="addMediaArticleBtn">+ 기사 추가</button>
+      </section>
+
+      <!-- Footer -->
+      <section class="panel" id="footer-panel" style="display:none;">
+        <h2 class="panel__title">Footer</h2>
+        <div class="form-group">
+          <label>사무국 이름</label>
+          <input type="text" id="footer-officeName" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>전화번호</label>
+          <input type="text" id="footer-phone" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>이메일</label>
+          <input type="email" id="footer-email" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>주소</label>
+          <input type="text" id="footer-address" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>저작권</label>
+          <input type="text" id="footer-copyright" class="form-input">
+        </div>
+      </section>
+
+      <!-- 메뉴 아이템 추가 -->
+      <section class="panel" id="mobilemenu-panel" style="display:none;">
+        <h2 class="panel__title">메뉴 아이템 추가</h2>
+        <p style="margin-bottom:20px;color:#666;">햄버거 메뉴에 추가로 표시될 항목을 설정합니다. 내용이 없으면 표시되지 않습니다.</p>
+        
+        <div class="form-group">
+          <label>사이트 이름 (메인 타이틀)</label>
+          <input type="text" id="extra-menu-title" class="form-input" placeholder="예: 파트너사">
+        </div>
+        <div class="form-group">
+          <label>주소 (URL)</label>
+          <input type="text" id="extra-menu-url" class="form-input" placeholder="예: https://example.com">
+        </div>
+        <div class="form-group">
+          <label>설명 (서브 타이틀)</label>
+          <input type="text" id="extra-menu-subtitle" class="form-input" placeholder="예: Our Partner">
+        </div>
+      </section>
+
+      <!-- SEO -->
+      <section class="panel" id="seo-panel" style="display:none;">
+        <h2 class="panel__title">SEO 설정</h2>
+        
+        <h3 class="panel__subtitle">기본 메타 정보</h3>
+        <div class="form-group">
+          <label>페이지 제목 (title)</label>
+          <input type="text" id="seo-title" class="form-input" placeholder="예: BWB2025 - Blockchain Week in Busan">
+        </div>
+        <div class="form-group">
+          <label>설명 (description)</label>
+          <textarea id="seo-description" class="form-input" rows="3" placeholder="예: 2025년 부산에서 열리는 블록체인 컨퍼런스"></textarea>
+        </div>
+        <div class="form-group">
+          <label>키워드 (keywords)</label>
+          <input type="text" id="seo-keywords" class="form-input" placeholder="예: 블록체인, 컨퍼런스, 부산, 2025">
+        </div>
+        <div class="form-group">
+          <label>대표 이미지 URL (og:image)</label>
+          <input type="text" id="seo-ogImage" class="form-input" placeholder="예: https://example.com/og-image.jpg">
+        </div>
+        <div class="form-group">
+          <label>사이트 URL</label>
+          <input type="text" id="seo-url" class="form-input" placeholder="예: https://example.com">
+        </div>
+        
+        <h3 class="panel__subtitle">Open Graph (SNS 공유)</h3>
+        <div class="form-group">
+          <label>og:title (비워두면 페이지 제목 사용)</label>
+          <input type="text" id="seo-ogTitle" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>og:description (비워두면 설명 사용)</label>
+          <textarea id="seo-ogDescription" class="form-input" rows="2"></textarea>
+        </div>
+        <div class="form-group">
+          <label>og:type</label>
+          <input type="text" id="seo-ogType" class="form-input" value="website">
+        </div>
+        
+        <h3 class="panel__subtitle">추가 설정</h3>
+        <div class="form-group">
+          <label>언어 (lang)</label>
+          <input type="text" id="seo-lang" class="form-input" value="ko">
+        </div>
+        <div class="form-group">
+          <label>favicon URL</label>
+          <input type="text" id="seo-favicon" class="form-input" placeholder="예: /assets/images/favicon.ico">
+        </div>
+        <div class="form-group">
+          <label>Google Analytics ID (선택)</label>
+          <input type="text" id="seo-gaId" class="form-input" placeholder="예: G-XXXXXXXXXX">
+        </div>
+        
+        <div class="form-group" style="margin-top: 30px;">
+          <button class="btn btn--primary" id="generateSeoBtn">index.html 생성 및 다운로드</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- JS 모듈 로드 -->
+  <script src="/admin/js/utils.js"></script>
+  <script src="/admin/js/api.js"></script>
+  <script src="/admin/js/renders.js"></script>
+  <script src="/admin/js/gallery.js"></script>
+  <script src="/admin/js/media.js"></script>
+  <script src="/admin/js/seo.js"></script>
+  <script src="/admin/js/forms.js"></script>
+  <script src="/admin/js/admin.js"></script>
+</body>
+</html>
