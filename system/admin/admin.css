@@ -1,9 +1,0 @@
-/* ========================================
-   Admin Styles - Import
-   모든 스타일 통합
-   ======================================== */
-
-@import url('css/base.css');
-@import url('css/layout.css');
-@import url('css/components.css');
-@import url('css/gallery.css');
