@@ -77,11 +77,11 @@
     "sloganMain": "\"Beyond Connection, Into Nexus\"\n",
     "paragraphs": [
       "**The BWB2025** conference will be a time <br class=\"br-mobile\">to experience firsthand the moment the vision of the <br class=\"br-mobile\">**'Target 2026 blockchain city Busan'** that we have been presenting over the past two years is realized.",
-      "Web2.0 and Web3.0 linked, <br class=\"br-mobile\">Integrated financial ecosystem <br class=\"br-mobile\">where fiat and crypto are freely exchanged",
-      "A new standard for digital citizenship in which citizens' administration, payment, transportation, and voting are integrated into a single wallet",
+      "@@Web2.0 and Web3.0 linked,@@ <br class=\"br-mobile\">Integrated financial ecosystem <br class=\"br-mobile\">where @@fiat and crypto are freely exchanged@@",
+      "A new standard for digital citizenship in which citizens' administration, payment, transportation, and voting are @@integrated into a single wallet@@",
       "A city where personal data is distributed <br class=\"br-mobile\">and encrypted security systems secure all transactions and information through their own control in a blockchain network",
       "**From Busan**,<br class=\"br-mobile\"> innovation begins, spreading to the Global Network and uniting with citizens around the world.\n",
-      "When everything is combined with a single Web3.0 wallet, everyday life around the world begins in your hands.",
+      "@@When everything is combined <br class=\"br-mobile\">with a single Web3.0 wallet, <br class=\"br-mobile\">everyday life around the world begins in your hands.@@",
       "A city where cutting-edge technology becomes the routine of our lives, making your day more convenient, safer and richer.",
       "**We invite you to the moment of great transformation that will open <br class=\"br-mobile\">a new future for everyone.**"
     ],
@@ -623,19 +623,29 @@
         "slides": [
           {
             "id": "slide1-1",
-            "title": "BWB2024 Highlights",
+            "title": "BWB2024 Highlights1",
             "photos": [
               "assets/images/1765272493007_1.jpg",
               "assets/images/1765272493039_2.jpg",
               "assets/images/1765272493058_3.jpg",
               "assets/images/1765272493070_4.jpg",
-              "assets/images/1765272493135_5.jpg"
+              "assets/images/1765272493135_5.jpg",
+              "assets/images/1765283428132_2024102814552628151.jpg",
+              "assets/images/1765283438807_2024102814552197481.jpg"
             ]
           },
           {
             "id": "id_1764612382702_uez2xz18u",
-            "title": "BWB2025",
-            "photos": []
+            "title": "BWB2024 Highlights2",
+            "photos": [
+              "assets/images/1765283453778_5.jpg",
+              "assets/images/1765283454663_2024102814484909052.jpg",
+              "assets/images/1765283454917_2024102814495523151.jpg",
+              "assets/images/1765283455117_2024102814511110479.jpg",
+              "assets/images/1765283455227_2024102814523761864.jpg",
+              "assets/images/1765283455425_2024102815003453219.jpg",
+              "assets/images/1765283456194_JA505847.jpg"
+            ]
           }
         ]
       }

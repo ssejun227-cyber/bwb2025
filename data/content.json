@@ -638,23 +638,33 @@
       {
         "id": "day1",
         "label": "Photos",
-        "date": "12/22 MON",
+        "date": "10/29~30",
         "slides": [
           {
             "id": "slide1-1",
-            "title": "BWB2024 하이라이트",
+            "title": "BWB2024 하이라이트1",
             "photos": [
               "assets/images/1765272507278_1.jpg",
               "assets/images/1765272507302_2.jpg",
               "assets/images/1765272507326_3.jpg",
               "assets/images/1765272507342_4.jpg",
-              "assets/images/1765272507404_5.jpg"
+              "assets/images/1765272507404_5.jpg",
+              "assets/images/1765283348552_2024102814552628151.jpg",
+              "assets/images/1765283409028_2024102814552197481.jpg"
             ]
           },
           {
             "id": "id_1764612382702_uez2xz18u",
-            "title": "BWB2025",
-            "photos": []
+            "title": "BWB2024 하이라이트2",
+            "photos": [
+              "assets/images/1765283394262_5.jpg",
+              "assets/images/1765283395108_2024102814484909052.jpg",
+              "assets/images/1765283395386_2024102814495523151.jpg",
+              "assets/images/1765283395589_2024102814511110479.jpg",
+              "assets/images/1765283395688_2024102814523761864.jpg",
+              "assets/images/1765283395883_2024102815003453219.jpg",
+              "assets/images/1765283396636_JA505847.jpg"
+            ]
           }
         ]
       }
@@ -1055,9 +1065,9 @@
     "category": "Main Session"
   },
   "seo": {
-    "title": "Blockchain Week in Busan 2025",
-    "description": "설명",
-    "keywords": "",
+    "title": "BWB 2025",
+    "description": "Blockchain Week in Busan 2025",
+    "keywords": "블록체인, 위크, 부산, BWB, 2025, 비단주머니, 비단, 부산디지털자산거래소, Bdan",
     "ogImage": "",
     "url": "",
     "ogTitle": "",
