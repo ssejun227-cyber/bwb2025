@@ -188,6 +188,7 @@ function renderHero(hero) {
     if (instagram) {
       if (hero.sns.instagram) {
         instagram.href = hero.sns.instagram;
+        instagram.target = '_blank';
         instagram.style.display = 'flex';
       } else {
         instagram.style.display = 'none';
@@ -196,6 +197,7 @@ function renderHero(hero) {
     if (x) {
       if (hero.sns.x) {
         x.href = hero.sns.x;
+        x.target = '_blank';
         x.style.display = 'flex';
       } else {
         x.style.display = 'none';
@@ -203,7 +205,12 @@ function renderHero(hero) {
     }
     if (youtube) {
       if (hero.sns.youtube) {
-        youtube.href = hero.sns.youtube;
+        let youtubeUrl = hero.sns.youtube;
+        if (!youtubeUrl.startsWith('http')) {
+          youtubeUrl = 'https://' + youtubeUrl;
+        }
+        youtube.href = youtubeUrl;
+        youtube.target = '_blank';
         youtube.style.display = 'flex';
       } else {
         youtube.style.display = 'none';

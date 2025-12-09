@@ -280,7 +280,7 @@
           },
           {
             "id": "id_1765030513876_sdxyq7h4v",
-            "photo": "assets/images/1765039136415__.png",
+            "photo": "assets/images/1765272708469__2.png",
             "name": "민병덕",
             "role": "",
             "desc": "",
@@ -502,8 +502,133 @@
     "title": "MEDIA",
     "subtitle": "언론 속 BWB2025",
     "logo": "",
-    "featured": [],
-    "articles": []
+    "featured": [
+      {
+        "id": "id_1765270951627_to5od73gx",
+        "image": "assets/images/1765270980212_2024102711140466430_l.jpg",
+        "title": "블록체인 바닷속으로… BWB 개막",
+        "summary": "올해로 4회째를 맞는 ‘블록체인 위크 인 부산(BWB)’이 28일 부산 해운대구 시그니엘 부산에서 성대한 막을 올린다. 28~29일 이틀간의 일정으로 진행되는 BWB 2024는 ‘혁신 도시 부산에서 전 세계로’라는 슬로건 아래 ...",
+        "source": "부산일보",
+        "date": "2024-10-27",
+        "url": "https://www.busan.com/view/busan/view.php?code=2024102718193485414"
+      },
+      {
+        "id": "id_1765271396201_mkhamb71d",
+        "image": "assets/images/1765271519223_news-p.v1.20241028.a450adb654cd43cba64a8f11792973e3_P1.png",
+        "title": "부산디지털자산거래소 ‘비단’ 출범···연내 서비스 시작",
+        "summary": "28일 시그니엘 부산에서 열린 ‘블록체인 위크 인 부산(BWB)2024’에서 부산디지털자산거래소는 공식 브랜드명인 비단(BDAN)을 발표하고 공식 출범식을 가졌다. 비단(Busan Digital Asset Nexus)은 ... ",
+        "source": "매일경제",
+        "date": "2024-10-28",
+        "url": "https://www.mk.co.kr/news/economy/11152330"
+      },
+      {
+        "id": "id_1765271496993_jlhqfm6o4",
+        "image": "assets/images/1765271513081_2024102817221678843_l.jpg",
+        "title": "[BWB 2024] 범아시아권 디지털 자산거래소, 부산서 ‘동맹’ 맺었다",
+        "summary": "‘아시아 디지털 자산거래소 얼라이언스(ADEA)’가 블록체인 위크 인 부산(Blockchain Week in Busan) 2024에서 28일 공식 출범했다. ADEA는 일본·말레이시아... 아시아의 디지털 자산 시장에 단비가 될 것”이란 기대감을 ...",
+        "source": "부산일보",
+        "date": "2024-10-28",
+        "url": "https://www.busan.com/view/busan/view.php?code=2024102817225696597"
+      },
+      {
+        "id": "id_1765271580835_yqjjxcn0h",
+        "image": "assets/images/1765271608202_2024102917403473920_l.jpg",
+        "title": "부산디지털자산거래소 출범 ‘금융 허브’ 도약 이끈다",
+        "summary": "부산은 한국거래소와 예탁결제원 등 주요 금융기관이 있는 곳이고 블록체인규제자유특구인 데다 금융기회발전특구이기도 하다. 금융 허브를 지향함에 있어 기본 조건은 갖춘 셈이다. 거기다 이번에 디지털자산거래소까지 ...",
+        "source": "부산일보",
+        "date": "2024-10-30",
+        "url": "https://www.busan.com/view/busan/view.php?code=2024102917540693501"
+      },
+      {
+        "id": "id_1765271620394_p2jgtwati",
+        "image": "assets/images/1765271642392_01.38481980.1.jpg",
+        "title": "“블록체인에 진심인 부산”…RWA 통해 도시 혁신 모색한다 [BWB 2024]",
+        "summary": "박형준 부산시장이 BWB2024에 참여해 블록체인 기술 접목 계획에 대해 발표하고 있다. 한편 도시 차원에서의 혁신을 노리는 만큼 부산의 국회의원들도 뜻을 한 곳에 모았다. 부산의 국회의원 17명은 지난 5월 ...",
+        "source": "한국경제",
+        "date": "2024-10-30",
+        "url": "https://www.hankyung.com/article/202410308540g"
+      }
+    ],
+    "articles": [
+      {
+        "id": "id_1765271658573_qldu8a5d0",
+        "source": "한국경제",
+        "title": "부산 '디지털금융·블록체인 허브'로 부상",
+        "url": "https://www.hankyung.com/article/2024102969611"
+      },
+      {
+        "id": "id_1765271680316_s3aishlie",
+        "source": "부산일보",
+        "title": "[BWB 2024] 부산디지털자산거래소, 새 브랜드명 ‘비단’ 공식 출범",
+        "url": "https://www.busan.com/view/busan/view.php?code=2024102814033657911"
+      },
+      {
+        "id": "id_1765271699520_9fcyaoyl1",
+        "source": "이데일리",
+        "title": "디지털자산 거래 중심지 꿈꾸는 부산…든든한 뒷배는 '이곳'",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=04414886639057840&mediaCodeNo=257&OutLnkChk=Y"
+      },
+      {
+        "id": "id_1765272044064_cvcgnsb5j",
+        "source": "부산일보",
+        "title": "[BWB 2024] 범아시아권 디지털 자산거래소, 부산서 ‘동맹’ 맺었다",
+        "url": "https://www.busan.com/view/busan/view.php?code=2024102817225696597"
+      },
+      {
+        "id": "id_1765272064785_wue2q0pl1",
+        "source": "부산일보",
+        "title": "“부산, 디지털금융 날개 달아 글로벌 허브도시로 비상하자” [블록체인 위크 인 부산]",
+        "url": "https://www.busan.com/view/busan/view.php?code=2024102818261587490"
+      },
+      {
+        "id": "id_1765272086779_3u1npupln",
+        "source": "뉴시스",
+        "title": "'상장 분리 심사' 부산디지털자산거래소…\"실물자산 창의성 봐야\"",
+        "url": "https://www.newsis.com/view/NISX20241029_0002938864"
+      },
+      {
+        "id": "id_1765272114211_hkpby9spt",
+        "source": "뉴스1",
+        "title": "김상민 \"부산디지털자산거래소, 부산 청년 일자리 창출의 해답\"[인터뷰]",
+        "url": "https://www.news1.kr/finance/blockchain-fintech/5583406"
+      },
+      {
+        "id": "id_1765272138912_z3l5y1vsq",
+        "source": "이투데이",
+        "title": "‘분권형거래소’ 표방한 비단(BDAN)…시장감시·상장심사·예탁결제 분리",
+        "url": "https://www.etoday.co.kr/news/view/2414217"
+      },
+      {
+        "id": "id_1765272160830_uqgbeq5rv",
+        "source": "전자신",
+        "title": "[BWB2024] '분권형 거래소' 전문가 대담 개최…BDAN 중심 차세대 비전 조명",
+        "url": "https://www.etnews.com/20241029000218"
+      },
+      {
+        "id": "id_1765272178409_zshas533p",
+        "source": "국민일보",
+        "title": "“부산을 디지털금융·블록체인 허브로”… BWB 2024 개막 [출처] - 국민일보 [원본링크] - https://www.kmib.co.kr/article/view.asp?arcid=1730012847&code=11131418&cp=nv",
+        "url": "https://www.kmib.co.kr/article/view.asp?arcid=1730012847&code=11131418&cp=nv"
+      },
+      {
+        "id": "id_1765272194764_ssf9yap4a",
+        "source": "조선비즈",
+        "title": "\"부산을 글로벌 블록체인 허브로\"… 블록체인 위크 인 부산(BWB) 2024 개막",
+        "url": "https://biz.chosun.com/stock/finance/2024/10/28/V2SQSCBELBHAVKD5PTFAWNH5J4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+      },
+      {
+        "id": "id_1765272231041_ggppfxm73",
+        "source": "이투데이",
+        "title": "BWB 2024 개막…박형준 부산시장 “부산, 블록체인으로 글로벌 허브될 것”",
+        "url": "https://www.etoday.co.kr/news/view/2413652"
+      },
+      {
+        "id": "id_1765272271686_lwcldofc9",
+        "source": "연합뉴스",
+        "title": "\"부산을 블록체인 허브도시로\"…'BWB 2024' 28일 개막",
+        "url": "https://www.yna.co.kr/view/AKR20241021106400051?input=1195m"
+      }
+    ]
   },
   "gallery": {
     "title": "BWB2025 Gallery",
@@ -517,12 +642,13 @@
         "slides": [
           {
             "id": "slide1-1",
-            "title": "BWB2024",
+            "title": "BWB2024 하이라이트",
             "photos": [
-              "assets/images/1765168492346_1.jpg",
-              "assets/images/1765168492617_2.jpg",
-              "assets/images/1765168493033_3.jpg",
-              "assets/images/1765168499730_4.jpg"
+              "assets/images/1765272507278_1.jpg",
+              "assets/images/1765272507302_2.jpg",
+              "assets/images/1765272507326_3.jpg",
+              "assets/images/1765272507342_4.jpg",
+              "assets/images/1765272507404_5.jpg"
             ]
           },
           {
@@ -943,7 +1069,7 @@
   },
   "extraMenu": {
     "title": "BWB2024",
-    "url": "",
+    "url": "https://www.bwbusan2024.p-e.kr/",
     "subtitle": "BWB2024"
   }
 }

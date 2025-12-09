@@ -93,8 +93,14 @@ function initSmoothScroll() {
   
   navLinks.forEach(function(link) {
     link.addEventListener('click', function(e) {
-      e.preventDefault();
       const targetId = this.getAttribute('href');
+      
+      // href가 #만 있거나 외부 링크로 변경된 경우 스킵
+      if (!targetId || targetId === '#' || !targetId.startsWith('#')) {
+        return;
+      }
+      
+      e.preventDefault();
       const targetElement = document.querySelector(targetId);
       
       if (targetElement) {

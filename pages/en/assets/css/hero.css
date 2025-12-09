@@ -99,16 +99,61 @@
 
 @media (max-width: 767px) {
   .hero__slider-btn {
-    width: 40px;
-    height: 40px;
+    display: none;
   }
   
-  .hero__slider-btn--prev {
-    left: 10px;
+  .hero__content {
+    left: 16px !important;
   }
   
-  .hero__slider-btn--next {
-    right: 10px;
+  .hero__subtitle {
+    font-size: 25px !important;
+    margin-bottom: 0 !important;
+  }
+  
+  .hero__title {
+    font-size: 55px !important;
+    white-space: nowrap;
+    margin-bottom: 0 !important;
+  }
+  
+  .hero__slogan {
+    font-size: 37px !important;
+    margin-bottom: 10px !important;
+    line-height: 1.1 !important;
+  }
+  
+  .hero__info {
+    font-size: 21px !important;
+  }
+  
+  .hero__social {
+    left: 16px !important;
+    gap: 0.5px !important;
+  }
+  
+  .hero__social-link {
+    width: 43px !important;
+    height: 43px !important;
+    font-size: 32px !important;
+  }
+  
+  .hero__social-link svg {
+    width: 29px !important;
+    height: 29px !important;
+  }
+  
+  .hero__scroll-text {
+    display: none !important;
+  }
+  
+  .hero__arrow {
+    font-size: 29px !important;
+  }
+  
+  .hero__arrow svg {
+    width: 32px !important;
+    height: 32px !important;
   }
 }
 
@@ -357,7 +402,7 @@
 /* 콘텐츠 */
 .hero__content {
   position: absolute;
-  left: 20%;
+  left: 16px;
   top: 40%;
   transform: translateY(-50%);
   z-index: 5;
