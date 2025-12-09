@@ -43,7 +43,7 @@
       "assets/images/1765194987600_5.jpg"
     ],
     "logo": "assets/images/1765098281332_KakaoTalk_20251207_175635539_02.png",
-    "subtitle": "Blockchain Week in Busan 2025",
+    "subtitle": "Blockchain Week in Busan",
     "title": "BWB 2025",
     "slogan": "Beyond Connection\nInto Nexus",
     "date": "2025.12.22",
@@ -54,9 +54,9 @@
       "youtube": "#"
     },
     "sns": {
-      "instagram": "",
-      "x": "",
-      "youtube": ""
+      "instagram": "https://www.instagram.com/bwbusan?igsh=N3hqaHJlejZnZDA2",
+      "x": "https://x.com/bwbusan?s=20",
+      "youtube": "www.youtube.com/@BdanOfficial"
     }
   },
   "links": [
@@ -921,7 +921,7 @@
         ]
       }
     ],
-    "title": "Blockchain Week in Busan 2025",
+    "title": "BWB2025 Program",
     "venue": "Signiel Busan, Grand Ballroom",
     "notice": "The contents of the event and the speakers may vary depending on the situation.",
     "category": "Main Session"

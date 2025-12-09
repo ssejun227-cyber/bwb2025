@@ -43,7 +43,7 @@
       "assets/images/1765195563849_5.jpg"
     ],
     "logo": "assets/images/1765098896496_.png",
-    "subtitle": "Blockchain Week in Busan 2025",
+    "subtitle": "Blockchain Week in Busan",
     "title": "BWB 2025",
     "slogan": "Beyond Connection\nInto Nexus",
     "date": "2025.12.22",
@@ -54,9 +54,9 @@
       "youtube": "#"
     },
     "sns": {
-      "instagram": "",
-      "x": "",
-      "youtube": ""
+      "instagram": "https://www.instagram.com/bwbusan?igsh=N3hqaHJlejZnZDA2",
+      "x": "https://x.com/bwbusan?s=20",
+      "youtube": "www.youtube.com/@BdanOfficial"
     }
   },
   "links": [
@@ -73,9 +73,9 @@
   ],
   "about": {
     "sloganSub": "Blockchain Week in Busan 2025",
-    "sloganMain": "\"Beyond Connection, Into Nexus\"\n\"연결을 넘어, 결합으로\"",
+    "sloganMain": "\"Beyond Connection, Into Nexus\"",
     "paragraphs": [
-      "BWB2025 컨퍼런스는 지난 2년 간 제시해 온 **Target 2026 블록체인 시티 부산**의 비전이 실현되는 순간을 직접 경험하는 시간이 될 것입니다.\n",
+      "BWB2025 컨퍼런스는 지난 2년 간 제시해 온 **Target 2026 블록체인 시티 부산**의 비전이 실현되는 순간을 직접 경험하는 시간이 될 것입니다.",
       "**Web2.0과 Web3.0이 연동**되고, **법정화폐와 암호화폐가 자유롭게 교환**되는 **통합 금융 생태계**\n",
       "시민의행정·결제·교통·투표 등이 하나의 지갑으로 통합되는 디지털 시민 생활의 새로운 표준\n",
       "개인의 데이터가 분산화 된 블록체인 네트워크에서 본인만의 통제를 통해 암호화 된 보안체계가 모든 거래와 정보를 안전하게 보호하는 도시\n",
@@ -921,7 +921,7 @@
         ]
       }
     ],
-    "title": "Blockchain Week in Busan 2025",
+    "title": "BWB2025 Program",
     "venue": "시그니엘 부산 4F 그랜드볼룸홀",
     "notice": "행사 내용과 연사는 상황에 따라 달라질 수 있습니다.",
     "category": "Main Session"

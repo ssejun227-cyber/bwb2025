@@ -4,6 +4,39 @@
  */
 
 /**
+ * 마크업 삽입 (선택 텍스트 감싸기 또는 커서 위치에 삽입)
+ */
+function insertMarkup(index, startTag, endTag) {
+  const textarea = document.getElementById(`para-textarea-${index}`);
+  if (!textarea) return;
+  
+  const start = textarea.selectionStart;
+  const end = textarea.selectionEnd;
+  const text = textarea.value;
+  const selectedText = text.substring(start, end);
+  
+  let newText;
+  let newCursorPos;
+  
+  if (selectedText) {
+    // 선택된 텍스트가 있으면 감싸기
+    newText = text.substring(0, start) + startTag + selectedText + endTag + text.substring(end);
+    newCursorPos = start + startTag.length + selectedText.length + endTag.length;
+  } else {
+    // 선택 없으면 커서 위치에 삽입
+    newText = text.substring(0, start) + startTag + endTag + text.substring(end);
+    newCursorPos = start + startTag.length;
+  }
+  
+  textarea.value = newText;
+  contentData.about.paragraphs[index] = newText;
+  
+  // 커서 위치 복원
+  textarea.focus();
+  textarea.setSelectionRange(newCursorPos, newCursorPos);
+}
+
+/**
  * 토스트 알림
  */
 function showToast(message, type = 'success') {

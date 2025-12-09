@@ -4,8 +4,14 @@
 
 /* ---- Links Section (버튼 영역) ---- */
 .links-section {
-  padding: var(--spacing-md) 0;
+  padding: 8px 0;
   background-color: var(--color-bg-gray);
+}
+
+@media (min-width: 768px) {
+  .links-section {
+    padding: var(--spacing-md) 0;
+  }
 }
 
 .links-section__buttons {
@@ -18,8 +24,8 @@
 
 .links-section__btn {
   min-width: 100px;
-  padding: var(--spacing-xs) var(--spacing-sm);
-  font-size: 12px;
+  padding: 1px var(--spacing-sm);
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -40,7 +46,7 @@
 }
 
 .about__text {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 6px;
   color: var(--color-text);
@@ -49,7 +55,7 @@
 
 /* About 마지막 문단 강조 */
 .about__text--highlight {
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 700;
   color: var(--color-primary);
   margin-top: var(--spacing-lg);
@@ -71,6 +77,21 @@
 
 .about__text strong {
   color: var(--color-primary);
+}
+
+.about__text strong.text-black {
+  color: var(--color-text);
+}
+
+/* 모바일 전용 줄바꿈 */
+.br-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .br-mobile {
+    display: block;
+  }
 }
 
 /* About 미디어 (이미지/비디오/유튜브) */
@@ -158,7 +179,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 6px;
+  column-gap: 2px;
+  row-gap: 0;
   flex: 1;
 }
 
@@ -177,19 +199,22 @@
 .hosts__row {
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 0;
+  gap: 0;
 }
 
 .hosts__group {
   width: 100%;
   display: flex;
   align-items: flex-start;
-  gap: var(--spacing-sm);
-  margin-bottom: 4px;
+  gap: 6px;
+  margin-bottom: 2px;
 }
 
 .hosts__label {
-  min-width: 28px;
+  min-width: 32px;
   padding-top: 4px;
+  font-size: 15px;
 }
 
 @media (min-width: 768px) {
@@ -257,27 +282,32 @@
 }
 
 .org__group .card__name {
-  font-size: 18px;
+  font-size: 22px;
+  margin-bottom: 2px;
 }
 
 .org__group .card__role {
-  font-size: 12px;
+  font-size: 14px;
   color: #6B9AE8;
-  margin-bottom: 4px;
+  margin-bottom: 0;
   font-weight: 700;
 }
 
 .org__group .card__desc {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
 .org__group-title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: var(--spacing-md);
   color: var(--color-text);
   text-align: center;
+}
+
+.org__group .grid {
+  gap: 4px;
 }
 
 .org__logos {
@@ -458,11 +488,17 @@
 }
 
 .speaker__group .card__name {
-  font-size: 18px;
+  font-size: 22px;
+  margin-bottom: 2px;
 }
 
 .speaker__group .card__desc {
-  font-size: 12px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.speaker__group .grid {
+  gap: 4px;
 }
 
 .speaker__spacer {
@@ -470,7 +506,7 @@
 }
 
 .speaker__title {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   text-align: center;
   margin-bottom: var(--spacing-xs);
@@ -478,7 +514,7 @@
 }
 
 .speaker__subtitle {
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   margin-bottom: var(--spacing-md);
   color: #888;
@@ -721,17 +757,37 @@
 
 /* 반응형 */
 @media (max-width: 767px) {
+  .program {
+    padding-left: 18px;
+  }
+  
   .program__header {
     text-align: left;
   }
   
   .program__title {
-    font-size: 28px;
+    font-size: 32px;
+  }
+  
+  .program__category {
+    font-size: 20px;
+  }
+  
+  .program__venue {
+    font-size: 18px;
+  }
+  
+  .program__notice {
+    font-size: 16px;
   }
   
   .program__tabs {
     margin-left: 0;
     margin-right: auto;
+  }
+  
+  .program__tab {
+    font-size: 17px;
   }
   
   .program__day-wrapper {
@@ -747,7 +803,7 @@
     position: absolute;
     left: -25px;
     top: 0;
-    font-size: 13px;
+    font-size: 15px;
   }
   
   .program__day-wrapper {
@@ -761,14 +817,18 @@
   }
   
   .program__session-title {
-    font-size: 14px;
+    font-size: 17px;
   }
   
   .program__session-subtitle {
-    font-size: 13px;
+    font-size: 15px;
     margin-left: 0;
     display: block;
     margin-top: 5px;
+  }
+  
+  .program__time {
+    font-size: 16px;
   }
   
   .program__info {
@@ -777,11 +837,11 @@
   }
   
   .program__speaker {
-    font-size: 14px;
+    font-size: 17px;
   }
   
   .program__note {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 

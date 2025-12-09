@@ -4,12 +4,14 @@
 
 /**
  * 간단한 마크다운 변환
- * **굵은글씨** → <strong>굵은글씨</strong>
+ * **굵은글씨** → <strong>굵은글씨</strong> (primary color)
+ * @@굵은글씨@@ → <strong class="text-black">굵은글씨</strong> (검은색)
  * *기울임* → <em>기울임</em>
  */
 function parseMarkdown(text) {
   if (!text) return '';
   return text
+    .replace(/@@(.+?)@@/g, '<strong class="text-black">$1</strong>')
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>');
 }

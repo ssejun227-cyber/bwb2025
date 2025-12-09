@@ -142,7 +142,18 @@ function renderParagraphs() {
         </div>
         <div class="item-card__body item-card__body--full">
           <div class="form-group">
-            <textarea class="form-textarea" 
+            <div class="markup-toolbar">
+              <button type="button" class="markup-btn" onclick="insertMarkup(${index}, '**', '**')" title="색깔 + 굵은글씨">
+                <strong style="color:#E63370;">B</strong>
+              </button>
+              <button type="button" class="markup-btn" onclick="insertMarkup(${index}, '@@', '@@')" title="검은색 + 굵은글씨">
+                <strong>B</strong>
+              </button>
+              <button type="button" class="markup-btn" onclick="insertMarkup(${index}, '&lt;br class=&quot;br-mobile&quot;&gt;', '')" title="모바일 줄바꿈">
+                ↵
+              </button>
+            </div>
+            <textarea class="form-textarea" id="para-textarea-${index}"
               onchange="contentData.about.paragraphs[${index}] = this.value">${para}</textarea>
           </div>
         </div>
