@@ -219,18 +219,6 @@
             ]
           },
           {
-            "id": "id_1764937260706_ueh8xxd9p",
-            "photo": "assets/images/1765039020812__.png",
-            "name": "Chun, Jae-Soo",
-            "role": "",
-            "desc": "국민의힘 부산 부산진구을 국회의원 정무위원회",
-            "descs": [
-              "Minister of Oceans and Fisheries ",
-              "National Assembly member at Busan Buk-gu A",
-              "Democratic Party of Korea"
-            ]
-          },
-          {
             "id": "id_1764937104894_a3r11dfbw",
             "photo": "assets/images/1765039006458__.png",
             "name": "Lim, Jong-In",
@@ -238,17 +226,6 @@
             "desc": "해양수산부 장관 더불어민주당 부산 북구갑 국회의원",
             "descs": [
               "Former Special cyber secretary of Presidential Office"
-            ]
-          },
-          {
-            "id": "id_1765030383100_qtr33o8ja",
-            "photo": "assets/images/1765039027406__.png",
-            "name": "Lee, Heon-seung",
-            "role": "",
-            "desc": "",
-            "descs": [
-              "National Assembly member at Busan Jin-gu B",
-              "People Power Party"
             ]
           },
           {
@@ -689,7 +666,7 @@
           "name": "Simon Seojoon Kim",
           "desc": "샘플1",
           "descs": [
-            "CEO of HASHED"
+            "CEO, HASHED"
           ]
         },
         {
@@ -698,7 +675,7 @@
           "name": "Noritaka Okabe",
           "desc": "",
           "descs": [
-            "Founder of JPYC Inc."
+            "Founder, JPYC Inc."
           ]
         }
       ]
@@ -723,7 +700,7 @@
           "name": "Mine Kimihiro",
           "desc": "샘플1",
           "descs": [
-            "CEO of Finoject"
+            "CEO, Finoject"
           ]
         },
         {
@@ -741,16 +718,7 @@
           "name": "Kim, Sang-min",
           "desc": "",
           "descs": [
-            "CEO of Busan Digital Asset Nexus"
-          ]
-        },
-        {
-          "id": "id_1765184614776_h2sloq0z4",
-          "photo": "assets/images/1765184629543__.png",
-          "name": "Park, Sang-jin",
-          "desc": "",
-          "descs": [
-            "CEO of NAVER Financial"
+            "CEO, Busan Digital Asset Nexus"
           ]
         },
         {
@@ -759,7 +727,7 @@
           "name": "Sim, Jun-Sik",
           "desc": "",
           "descs": [
-            "CEO of Bon Media"
+            "CEO, Bon Media"
           ]
         },
         {
@@ -768,7 +736,7 @@
           "name": "Lee, Jung-Hee",
           "desc": "",
           "descs": [
-            "Professor at Korea University's Graduate School of Privacy and Data Protection"
+            "Professor, Korea University Graduate School of Privacy and Data Protection"
           ]
         },
         {
@@ -777,7 +745,7 @@
           "name": "Ryu, Hong-Yeoul",
           "desc": "",
           "descs": [
-            "Co-Founder and CEO of BDACS"
+            "Co-Founder and CEO, BDACS"
           ]
         },
         {
@@ -786,7 +754,7 @@
           "name": "Lee, Sang-yoon",
           "desc": "",
           "descs": [
-            "CEO of Korea Gold Exchange Digital Asset"
+            "CEO, Korea Gold Exchange Digital Asset"
           ]
         },
         {
@@ -795,7 +763,7 @@
           "name": "Park, Hyo-jin",
           "desc": "",
           "descs": [
-            "CEO of Sejong DX"
+            "CEO, Sejong DX"
           ]
         },
         {
@@ -813,7 +781,7 @@
           "name": "Han, In-suk",
           "desc": "",
           "descs": [
-            "COO of Exxino"
+            "COO, Exxino"
           ]
         },
         {
@@ -822,7 +790,7 @@
           "name": "Um, Tae-gyeong",
           "desc": "",
           "descs": [
-            "Managing Director of Ringnet"
+            "Managing Director, Ringnet"
           ]
         }
       ]
