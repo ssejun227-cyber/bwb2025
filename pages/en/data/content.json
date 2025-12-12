@@ -4,9 +4,10 @@
     "description": "\"Beyond Connection, Into Nexus\", Blockchain Week in Busan 2025",
     "keywords": [
       "BWB",
-      "블록체인",
-      "위크 인 부산",
-      "2025"
+      "2025",
+      "blockchain",
+      "week",
+      "busan"
     ]
   },
   "sections": {
@@ -767,7 +768,7 @@
           "name": "Lee, Jung-Hee",
           "desc": "",
           "descs": [
-            "Professor at Korea University's Graduate School of Information Security"
+            "Professor at Korea University's Graduate School of Privacy and Data Protection"
           ]
         },
         {
