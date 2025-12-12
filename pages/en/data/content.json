@@ -773,7 +773,7 @@
         },
         {
           "id": "id_1765183992569_7tv6m3v2x",
-          "photo": "assets/images/1765184544673__.png",
+          "photo": "assets/images/1765526483771__2.png",
           "name": "Ryu, Hong-Yeoul",
           "desc": "",
           "descs": [
@@ -791,7 +791,7 @@
         },
         {
           "id": "id_1765183955591_hmqmei8jq",
-          "photo": "assets/images/1765183982021__.png",
+          "photo": "assets/images/1765526475743__2.png",
           "name": "Park, Hyo-jin",
           "desc": "",
           "descs": [
@@ -876,7 +876,7 @@
           {
             "id": "id_1764655464003_z6xj3ls4a",
             "time": "",
-            "title": "Congratulatory Speech",
+            "title": "Congratulatory Remarks and Messages",
             "speakers": "**Park Heong-Joon** Mayor of Busan Metropolitan City",
             "note": "",
             "highlight": false
@@ -885,7 +885,7 @@
             "id": "id_1764655652616_iiurmg4os",
             "time": "",
             "title": "Opening Remarks",
-            "speakers": "**Chang Dae-Hwan** Chairman of MAEKYUNG Media Group\n**Son Young-shin** CEO of BUSANILBO",
+            "speakers": "**Kim Jeong-wook** MBN Managing Director\n**Son Young-shin** CEO of BUSANILBO",
             "note": "",
             "highlight": false,
             "subtitle": ""
@@ -951,8 +951,8 @@
             "id": "id_1765029819065_qz2mijqle",
             "time": "",
             "title": "Web3.0 Wallet Super App 'Bidan Pocket' Launch",
-            "speakers": "**Kim Sang-Min** CEO of Busan Digital Asset Nexus\n**Simon Seojoon Kim** CEO of HASHED\n**Park Sang-jin** CEO of NAVER Financial\n**Lee Jung-Hee** Professor at Korea University's Graduate School of Information Security",
-            "note": "",
+            "speakers": "**Kim Sang-Min** CEO of Busan Digital Asset Nexus\n**Simon Seojoon Kim** CEO of HASHED\n**Lee Jung-Hee** Professor at Korea University's Graduate School of Information Security",
+            "note": "* Moderator : Kim Ho-jin, CEO of Shadlab",
             "highlight": false
           },
           {
@@ -976,7 +976,7 @@
             "time": "",
             "title": "Innovators Creating a Digital Financial City: Story of Busan's Blockchain Industry Field",
             "speakers": "**Sim Jun-Sik** CEO of Bon Media\n**Park Hyo-jin** CEO of Sejong DX\n**Ryu Hong-Yeoul** Co-Founder and CEO of BDACS",
-            "note": "",
+            "note": "* Moderator : Sim Jun-Sik CEO of Bon Media",
             "highlight": false
           },
           {
@@ -990,7 +990,7 @@
           {
             "id": "id_1765036824277_2sx05qput",
             "time": "",
-            "title": "A new digital asset exchange paradigm that protects and scales the value of users' assets",
+            "title": "A new value exchange paradigm for mobile gifts, PopPop",
             "speakers": "**Han In-suk** COO of Exxino",
             "note": "",
             "highlight": false
@@ -998,16 +998,16 @@
           {
             "id": "id_1765036846678_jjboop1e1",
             "time": "",
-            "title": "Reimaging gold on-chain, Korea's first gold-based RWA project launched",
+            "title": "Reimagining Gold On-Chain, led by ITCEN ",
             "speakers": "**Lee Sang-yoon** CEO of Korea Gold Exchange Digital Asset",
             "note": "",
             "highlight": false,
-            "subtitle": ""
+            "subtitle": "Rewriting the Value of Gold on-chain with ITCEN"
           },
           {
             "id": "id_1765036894117_9wwrvpdcb",
             "time": "",
-            "title": "Web3 The Invisible Foundation of Urban Infrastructure: Technology Architecture to Design Network, Security, and Trust",
+            "title": "Web3 Financial Infrastructure Innovation Connecting Cities and Digital Assets",
             "speakers": "**Um Tae-gyeong** Managing Director of Ringnet",
             "note": "",
             "highlight": false
@@ -1015,7 +1015,7 @@
           {
             "id": "id_1765036926545_fto01n2vt",
             "time": "",
-            "title": "Busan, a future city that evolves into a digital operating system that combines AI, digital finance, and Web3",
+            "title": "A new journey for digital financial innovation in Korea begins",
             "speakers": "**Jason Ko** Senior Managing Director, FOCUS AI",
             "note": "",
             "highlight": false

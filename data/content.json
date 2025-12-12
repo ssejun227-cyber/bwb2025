@@ -791,7 +791,7 @@
         },
         {
           "id": "id_1765178699822_o9kyd2cy0",
-          "photo": "assets/images/1765178749912__.png",
+          "photo": "assets/images/1765526460181__2.png",
           "name": "류홍열",
           "desc": "",
           "descs": [
@@ -809,7 +809,7 @@
         },
         {
           "id": "id_1765178649755_2h0rfly4h",
-          "photo": "assets/images/1765178666865__.png",
+          "photo": "assets/images/1765526466525__2.png",
           "name": "박효진",
           "desc": "",
           "descs": [
@@ -903,7 +903,7 @@
             "id": "id_1764655652616_iiurmg4os",
             "time": "",
             "title": "개회사",
-            "speakers": "**장대환** 매경미디어그룹 대표이사 부회장\n**손영신** 부산일보 사장",
+            "speakers": "**김정욱** MBN 상무\n**손영신** 부산일보 사장",
             "note": "",
             "highlight": false,
             "subtitle": ""
@@ -919,7 +919,7 @@
           {
             "id": "id_1765028768207_xe0wb0jhs",
             "time": "",
-            "title": "축사",
+            "title": "축사 & 축전",
             "speakers": "**박수영** 국민의힘 국회의원\n**민병덕** 더불어민주당 국회의원",
             "note": "",
             "highlight": false
@@ -936,7 +936,7 @@
             "id": "id_1765029600518_82mxv9zf3",
             "time": "",
             "title": "Target 2026 블록체인 시티 부산 : 대학생 서포터즈 ‘Beyond Busan’ 발대식",
-            "speakers": "**비단 캐릭터**\n**BEYOND BUSAN 대학생 서포터즈**",
+            "speakers": "**비단 캐릭터 &**\n**BEYOND BUSAN 대학생 서포터즈**",
             "note": "",
             "highlight": false,
             "subtitle": ""
@@ -969,9 +969,10 @@
             "id": "id_1765029819065_qz2mijqle",
             "time": "",
             "title": "Web3.0 지갑 슈퍼앱 ‘비단주머니’ 출범",
-            "speakers": "**김상민** 부산디지털자산거래소 대표\n**김서준** 해시드 대표\n**박상진** 네이버파이낸셜 대표\n**이중희** 고려대 정보보호대학원 사이버국방학과 교수",
+            "speakers": "**김상민** 부산디지털자산거래소 대표\n**김서준** 해시드 대표\n**이중희** 고려대 정보보호대학원 사이버국방학과 교수",
             "note": "",
-            "highlight": false
+            "highlight": false,
+            "subtitle": "* 모더레이터 : 김호진 샤드렙 대표"
           },
           {
             "id": "id_1765029911846_hk0pyhtoi",
@@ -994,7 +995,7 @@
             "time": "",
             "title": "디지털 금융도시를 만드는 혁신가들 : 부산 블록체인 산업 현장 이야기",
             "speakers": "**심준식** 비온미디어 대표\n**박효진** 세종디엑스 대표\n**류홍열** 비댁스 대표",
-            "note": "",
+            "note": "* 모더레이터 : 심준식 비온미디어 대표",
             "highlight": false
           },
           {
@@ -1008,7 +1009,7 @@
           {
             "id": "id_1765036824277_2sx05qput",
             "time": "",
-            "title": "이용자의 자산 가치를 지키고 확장하는 새로운 디지털 자산 교환 패러다임",
+            "title": "모바일 선물의 새로운 가치 교환 패러다임, 팝팝",
             "speakers": "**한인숙** 엑시노 COO",
             "note": "",
             "highlight": false
@@ -1016,16 +1017,16 @@
           {
             "id": "id_1765036846678_jjboop1e1",
             "time": "",
-            "title": "국내 최초 금 기반 RWA 사업 출범 Reimaging gold on-chain",
+            "title": "Reimaging Gold On-chain, led by ITCEN",
             "speakers": "**이상윤** 한국금거래소디지털에셋 대표",
             "note": "",
             "highlight": false,
-            "subtitle": "아이티센글로벌이 꿈꾸는 온체인 금의 미래"
+            "subtitle": "아이티센의 온체인으로 다시 쓰는 금의 가치"
           },
           {
             "id": "id_1765036894117_9wwrvpdcb",
             "time": "",
-            "title": "Web3 도시 인프라의 보이지 않는 기반: 네트 워크·보안·신뢰를 설계하는 기술 아키텍처",
+            "title": "도시와 디지털 자산을 잇는 Web3 금융 인프라 혁신",
             "speakers": "**엄태경** 링네트 상무",
             "note": "",
             "highlight": false
@@ -1033,7 +1034,7 @@
           {
             "id": "id_1765036926545_fto01n2vt",
             "time": "",
-            "title": "AI·디지털 금융·Web3가 결합한 디지털  운영체계로 진화하는 미래도시, 부산",
+            "title": "한국 디지털 금융 혁신을 위한 새로운 여정의  시작",
             "speakers": "**고광림** 포커스에이아이 전무",
             "note": "",
             "highlight": false
