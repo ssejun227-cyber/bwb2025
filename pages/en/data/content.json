@@ -667,6 +667,15 @@
           "descs": [
             "Founder, JPYC Inc."
           ]
+        },
+        {
+          "id": "id_1765615355098_5i18uxmoy",
+          "photo": "assets/images/1765615359950__2.png",
+          "name": "Kim Sangmin",
+          "desc": "",
+          "descs": [
+            "CEO, Busan Digital Asset Nexus"
+          ]
         }
       ]
     },
@@ -694,27 +703,9 @@
           ]
         },
         {
-          "id": "id_1765184652410_vn5lfs4ap",
-          "photo": "assets/images/1765184659668__UOB.png",
-          "name": "Charles Kok",
-          "desc": "",
-          "descs": [
-            "UOB Ventures Investment Director"
-          ]
-        },
-        {
-          "id": "id_1765184742930_uqucr86q1",
-          "photo": "assets/images/1765184747892__2.png",
-          "name": "Kim, Sang-min",
-          "desc": "",
-          "descs": [
-            "CEO, Busan Digital Asset Nexus"
-          ]
-        },
-        {
           "id": "id_1765184566635_hjyfe2faa",
           "photo": "assets/images/1765184579946__.png",
-          "name": "Sim, Jun-Sik",
+          "name": "Sim Jun-Sik",
           "desc": "",
           "descs": [
             "CEO, Bon Media"
@@ -723,7 +714,7 @@
         {
           "id": "id_1765184590469_3u975kh35",
           "photo": "assets/images/1765184605029__.png",
-          "name": "Lee, Jung-Hee",
+          "name": "Lee Junghee",
           "desc": "",
           "descs": [
             "Professor, Korea University Graduate School of Privacy and Data Protection"
@@ -732,7 +723,7 @@
         {
           "id": "id_1765183992569_7tv6m3v2x",
           "photo": "assets/images/1765526483771__2.png",
-          "name": "Ryu, Hong-Yeoul",
+          "name": "Ryoo Hongyul",
           "desc": "",
           "descs": [
             "Co-Founder and CEO, BDACS"
@@ -741,7 +732,7 @@
         {
           "id": "id_1765183931511_a4vettry7",
           "photo": "assets/images/1765183948414__.png",
-          "name": "Lee, Sang-yoon",
+          "name": "Yi Sangyoon",
           "desc": "",
           "descs": [
             "CEO, Korea Gold Exchange Digital Asset"
@@ -750,7 +741,7 @@
         {
           "id": "id_1765183955591_hmqmei8jq",
           "photo": "assets/images/1765526475743__2.png",
-          "name": "Park, Hyo-jin",
+          "name": "Park Hyojin",
           "desc": "",
           "descs": [
             "CEO, Sejong DX"
@@ -768,7 +759,7 @@
         {
           "id": "id_1765183881706_yx0fcrsz3",
           "photo": "assets/images/1765183902945__.png",
-          "name": "Han, In-suk",
+          "name": "Kate Han",
           "desc": "",
           "descs": [
             "COO, Exxino"
@@ -777,7 +768,7 @@
         {
           "id": "id_1765183837450_n88c5gdqu",
           "photo": "assets/images/1765183875714__.png",
-          "name": "Um, Tae-gyeong",
+          "name": "Eum Taekyeong",
           "desc": "",
           "descs": [
             "Managing Director, Ringnet"
@@ -798,7 +789,7 @@
         {
           "id": "id_1765033999350_fw48gh8q2",
           "photo": "assets/images/1765040092902__.png",
-          "name": "Lee, Seung-hyun",
+          "name": "Lee Seunghyun",
           "desc": "",
           "descs": [
             "KBS Announcer"
@@ -807,7 +798,7 @@
         {
           "id": "id_1765034076863_60w4y5gre",
           "photo": "assets/images/1765039888816__.png",
-          "name": "Kim, Yeh-ram",
+          "name": "Kim Yehram",
           "desc": "",
           "descs": [
             "Wavebridge / Former Head of Marketing, Kakao Krust Universe0"

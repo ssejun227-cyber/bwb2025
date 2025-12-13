@@ -130,11 +130,6 @@
         "logo": "assets/images/1765117190849_.png"
       },
       {
-        "id": "sup2",
-        "name": "후원 기관 2",
-        "logo": "assets/images/1765117348045_.png"
-      },
-      {
         "id": "sup3",
         "name": "후원 기관 3",
         "logo": "assets/images/1765117428566_.png"
@@ -690,6 +685,15 @@
           "descs": [
             "JPYC Inc. 창립자"
           ]
+        },
+        {
+          "id": "id_1765615301623_dbn47m96p",
+          "photo": "assets/images/1765615311210__2.png",
+          "name": "김상민",
+          "desc": "",
+          "descs": [
+            "부산디지털자산거래소 대표"
+          ]
         }
       ]
     },
@@ -714,24 +718,6 @@
           "desc": "샘플1",
           "descs": [
             "Finoject 대표"
-          ]
-        },
-        {
-          "id": "id_1765178987717_alug7pq5c",
-          "photo": "assets/images/1765178997660__UOB.png",
-          "name": "찰스 콕",
-          "desc": "",
-          "descs": [
-            "UOB Ventures 투자이사"
-          ]
-        },
-        {
-          "id": "id_1765178793947_x2n2oqrz9",
-          "photo": "assets/images/1765178809263__2.png",
-          "name": "김상민",
-          "desc": "",
-          "descs": [
-            "부산디지털자산거래소 대표"
           ]
         },
         {
