@@ -213,10 +213,12 @@ function renderLinks(links) {
   if (!container) return;
   
   container.innerHTML = '';
-  links.forEach(link => {
+  links.forEach((link, index) => {
     const a = document.createElement('a');
     a.href = link.url;
-    a.className = 'btn btn--primary links-section__btn';
+    // 첫 번째 버튼만 primary, 나머지는 outline
+    const btnStyle = index === 0 ? 'btn--primary' : 'btn--outline';
+    a.className = `btn ${btnStyle} links-section__btn`;
     a.textContent = link.text;
     container.appendChild(a);
   });

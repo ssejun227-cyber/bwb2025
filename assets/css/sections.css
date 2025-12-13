@@ -26,6 +26,8 @@
   min-width: 100px;
   padding: 1px var(--spacing-sm);
   font-size: 14px;
+  text-align: center;
+  font-weight: 700;
 }
 
 @media (min-width: 768px) {

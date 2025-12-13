@@ -63,13 +63,18 @@
   },
   "links": [
     {
+      "id": "link0",
+      "text": "참가신청 바로가기",
+      "url": "https://forms.gle/1PZmmPqgLjdCAn4v7"
+    },
+    {
       "id": "link1",
-      "text": "BWB2025 현장 사진",
+      "text": "BWB2024 현장 사진",
       "url": "pages/photo_kr/"
     },
     {
       "id": "link2",
-      "text": "BWB2025 언론보도",
+      "text": "BWB2024 언론보도",
       "url": "pages/media_kr/"
     }
   ],

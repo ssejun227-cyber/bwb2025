@@ -63,13 +63,18 @@
   },
   "links": [
     {
+      "id": "link0",
+      "text": "Register Now",
+      "url": "https://forms.gle/1PZmmPqgLjdCAn4v7"
+    },
+    {
       "id": "link1",
-      "text": "BWB2025 Gallery",
+      "text": "BWB2024 Gallery",
       "url": "/pages/photo_en/"
     },
     {
       "id": "link2",
-      "text": "BWB2025 in Media",
+      "text": "BWB2024 in Media",
       "url": "/pages/media_en/"
     }
   ],
