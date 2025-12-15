@@ -126,6 +126,11 @@
         "id": "org2",
         "name": "주관 기관 2",
         "logo": "assets/images/1765118497778_.png"
+      },
+      {
+        "id": "id_1765792644985_n18keybso",
+        "name": "",
+        "logo": "assets/images/1765792648000_.png"
       }
     ],
     "support": [
@@ -140,11 +145,6 @@
         "logo": "assets/images/1765118508982_.png"
       },
       {
-        "id": "id_1765098255548_hcbnq9qdg",
-        "name": "",
-        "logo": "assets/images/1765118516465_.png"
-      },
-      {
         "id": "id_1765098260964_9aow97r4d",
         "name": "",
         "logo": "assets/images/1765118519352_.png"
@@ -153,6 +153,11 @@
         "id": "id_1765098268794_xdehw1mr1",
         "name": "",
         "logo": "assets/images/1765118525217_.png"
+      },
+      {
+        "id": "id_1765791545654_96frwwdwi",
+        "name": "",
+        "logo": "assets/images/1765791549222_.png"
       }
     ]
   },
@@ -299,6 +304,16 @@
             "descs": [
               "CEO of Bon Media"
             ]
+          },
+          {
+            "id": "id_1765791629680_jmfi56pnn",
+            "photo": "assets/images/1765791645143__2.png",
+            "name": "Kang, Young-Se",
+            "role": "",
+            "desc": "",
+            "descs": [
+              "CEO of NONCE"
+            ]
           }
         ],
         "logos": [
@@ -306,6 +321,11 @@
             "id": "orglogo_1765167819150",
             "name": "",
             "logo": "assets/images/1765167829393__.png"
+          },
+          {
+            "id": "orglogo_1765791631290",
+            "name": "",
+            "logo": "assets/images/1765791634354_.png"
           }
         ]
       }
@@ -324,11 +344,6 @@
         "logo": "assets/images/1765159535413_.png"
       },
       {
-        "id": "id_1765159542421_u61hspmfl",
-        "name": "",
-        "logo": "assets/images/1765159547504_.png"
-      },
-      {
         "id": "id_1765159548889_jypxfru5c",
         "name": "",
         "logo": "assets/images/1765159551228_.png"
@@ -337,6 +352,11 @@
         "id": "id_1765159552195_bre5w5hy2",
         "name": "",
         "logo": "assets/images/1765159556565_.png"
+      },
+      {
+        "id": "id_1765791562366_dnuf1zchi",
+        "name": "",
+        "logo": "assets/images/1765791565838_.png"
       }
     ],
     "members": [],

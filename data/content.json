@@ -126,6 +126,11 @@
         "id": "org2",
         "name": "주관 기관 2",
         "logo": "assets/images/1765116851158_.png"
+      },
+      {
+        "id": "id_1765792522834_bgfa76fxa",
+        "name": "",
+        "logo": "assets/images/1765792525644_.png"
       }
     ],
     "support": [
@@ -140,11 +145,6 @@
         "logo": "assets/images/1765117428566_.png"
       },
       {
-        "id": "id_1765098393365_mutm5jkhf",
-        "name": "",
-        "logo": "assets/images/1765117717942_.png"
-      },
-      {
         "id": "id_1765098401040_4698p5t2d",
         "name": "",
         "logo": "assets/images/1765117720655_.png"
@@ -153,6 +153,11 @@
         "id": "id_1765098405279_qp297qhpq",
         "name": "",
         "logo": "assets/images/1765117724414_.png"
+      },
+      {
+        "id": "id_1765791483576_ohfqe6qw3",
+        "name": "",
+        "logo": "assets/images/1765791497411_.png"
       }
     ]
   },
@@ -299,6 +304,16 @@
             "descs": [
               "비온미디어 대표"
             ]
+          },
+          {
+            "id": "id_1765790559586_49lq2rfrh",
+            "photo": "assets/images/1765790592686__2.png",
+            "name": "강영세",
+            "role": "",
+            "desc": "",
+            "descs": [
+              "논스 대표"
+            ]
           }
         ],
         "logos": [
@@ -306,6 +321,11 @@
             "id": "orglogo_1765167298610",
             "name": "",
             "logo": "assets/images/1765167546728__.png"
+          },
+          {
+            "id": "orglogo_1765790545952",
+            "name": "",
+            "logo": "assets/images/1765792501351_.png"
           }
         ]
       }
@@ -324,11 +344,6 @@
         "logo": "assets/images/1765155348350_.png"
       },
       {
-        "id": "id_1765155361410_om2bauqvi",
-        "name": "",
-        "logo": "assets/images/1765155388050_.png"
-      },
-      {
         "id": "id_1765155390003_nbzxa018k",
         "name": "",
         "logo": "assets/images/1765155395648_.png"
@@ -337,6 +352,11 @@
         "id": "id_1765155396888_5ngr8l24s",
         "name": "",
         "logo": "assets/images/1765155399489_.png"
+      },
+      {
+        "id": "id_1765791461030_f9og2xrek",
+        "name": "",
+        "logo": "assets/images/1765791471111_.png"
       }
     ],
     "members": [],
@@ -798,21 +818,21 @@
           ]
         },
         {
-          "id": "id_1765785802590_s8buvgnq1",
-          "photo": "assets/images/1765786365690__.jpg",
-          "name": "김호진",
-          "desc": "",
-          "descs": [
-            "샤드랩 대표"
-          ]
-        },
-        {
           "id": "id_1765787263062_z2dl16ced",
           "photo": "assets/images/1765787284177___2.jpg",
           "name": "박성욱",
           "desc": "",
           "descs": [
             "센골드 대표"
+          ]
+        },
+        {
+          "id": "id_1765785802590_s8buvgnq1",
+          "photo": "assets/images/1765786365690__.jpg",
+          "name": "김호진",
+          "desc": "",
+          "descs": [
+            "샤드랩 대표"
           ]
         }
       ]
