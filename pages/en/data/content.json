@@ -780,21 +780,21 @@
           ]
         },
         {
-          "id": "id_1765787299640_3r53dgjwq",
-          "photo": "assets/images/1765787310688__.jpg",
-          "name": "Kim Hojin",
-          "desc": "",
-          "descs": [
-            "CEO, Shardlab"
-          ]
-        },
-        {
           "id": "id_1765787436096_fqqbil98i",
           "photo": "assets/images/1765787447542___2.jpg",
           "name": "Park Sungwook",
           "desc": "",
           "descs": [
             "CEO, CENGOLD"
+          ]
+        },
+        {
+          "id": "id_1765787299640_3r53dgjwq",
+          "photo": "assets/images/1765787310688__.jpg",
+          "name": "Kim Hojin",
+          "desc": "",
+          "descs": [
+            "CEO, Shardlab"
           ]
         }
       ]
