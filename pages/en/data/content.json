@@ -778,6 +778,24 @@
           "descs": [
             "Managing Director, Ringnet"
           ]
+        },
+        {
+          "id": "id_1765787299640_3r53dgjwq",
+          "photo": "assets/images/1765787310688__.jpg",
+          "name": "Kim Hojin",
+          "desc": "",
+          "descs": [
+            "CEO, Shardlab"
+          ]
+        },
+        {
+          "id": "id_1765787436096_fqqbil98i",
+          "photo": "assets/images/1765787447542___2.jpg",
+          "name": "Park Sungwook",
+          "desc": "",
+          "descs": [
+            "CEO, CENGOLD"
+          ]
         }
       ]
     },
@@ -971,6 +989,14 @@
             "time": "",
             "title": "A new journey for digital financial innovation in Korea begins",
             "speakers": "**Jason Ko** Senior Managing Director, FOCUS AI",
+            "note": "",
+            "highlight": false
+          },
+          {
+            "id": "id_1765785436263_ubmtpu3cr",
+            "time": "",
+            "title": "Issuance and Liquidation of RWA Tokens",
+            "speakers": "**Sungwook Park** CEO, CENGOLD",
             "note": "",
             "highlight": false
           },

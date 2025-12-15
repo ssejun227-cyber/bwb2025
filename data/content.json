@@ -796,6 +796,24 @@
           "descs": [
             "링네트 상무"
           ]
+        },
+        {
+          "id": "id_1765785802590_s8buvgnq1",
+          "photo": "assets/images/1765786365690__.jpg",
+          "name": "김호진",
+          "desc": "",
+          "descs": [
+            "샤드랩 대표"
+          ]
+        },
+        {
+          "id": "id_1765787263062_z2dl16ced",
+          "photo": "assets/images/1765787284177___2.jpg",
+          "name": "박성욱",
+          "desc": "",
+          "descs": [
+            "센골드 대표"
+          ]
         }
       ]
     },
@@ -990,6 +1008,14 @@
             "time": "",
             "title": "한국 디지털 금융 혁신을 위한 새로운 여정의  시작",
             "speakers": "**고광림** 포커스에이아이 전무",
+            "note": "",
+            "highlight": false
+          },
+          {
+            "id": "id_1765785388085_kd0b88zuz",
+            "time": "",
+            "title": "실물기반 기반의 RWA 토큰의 발행과 유동화",
+            "speakers": "**박성욱** 센골드 대표",
             "note": "",
             "highlight": false
           },
