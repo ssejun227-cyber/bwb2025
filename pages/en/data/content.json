@@ -174,7 +174,7 @@
             "role": "Co-Chairman",
             "desc": "매경미디어그룹 회장",
             "descs": [
-              "CEO of MAEKYUNG MEDIA GROUP"
+              "CEO of MAEKYUNG MEDIA"
             ]
           },
           {
@@ -206,7 +206,7 @@
           {
             "id": "id_1764643269743_pnhe8kmwn",
             "photo": "assets/images/1765038990971___.png",
-            "name": "Park, Heong-Joon",
+            "name": "Park Heongjoon",
             "role": "",
             "desc": "대통령실 정책실장",
             "descs": [
@@ -216,7 +216,7 @@
           {
             "id": "id_1764936961367_2hsjljo5f",
             "photo": "assets/images/1765038994738__.png",
-            "name": "Kim, Yong-Beom",
+            "name": "Kim Yongbeom",
             "role": "",
             "desc": "(前) 대통령비서실 사이버특별보좌관",
             "descs": [
@@ -226,7 +226,7 @@
           {
             "id": "id_1764937104894_a3r11dfbw",
             "photo": "assets/images/1765039006458__.png",
-            "name": "Lim, Jong-In",
+            "name": "Lim Jongin",
             "role": "",
             "desc": "해양수산부 장관 더불어민주당 부산 북구갑 국회의원",
             "descs": [
@@ -236,7 +236,7 @@
           {
             "id": "id_1765030718045_m3v94jbwj",
             "photo": "assets/images/1765039143802__.jpeg",
-            "name": "Kim, Hee-Jung",
+            "name": "Kim Heejung",
             "role": "",
             "desc": "",
             "descs": [
@@ -247,7 +247,7 @@
           {
             "id": "id_1765030856674_ue0ji419p",
             "photo": "assets/images/1765039192289__.jpg",
-            "name": "Park, Soo-Young",
+            "name": "Park Sooyoung",
             "role": "",
             "desc": "",
             "descs": [
@@ -258,7 +258,7 @@
           {
             "id": "id_1765030513876_sdxyq7h4v",
             "photo": "assets/images/1765272699432__2.png",
-            "name": "Min, Byeong-deok",
+            "name": "Min Byeongdeok",
             "role": "",
             "desc": "",
             "descs": [
@@ -270,7 +270,7 @@
           {
             "id": "id_1765030775582_irst000ij",
             "photo": "assets/images/1765039186028__.png",
-            "name": "Lee, Seong-Kweun",
+            "name": "Lee Seongkweun",
             "role": "",
             "desc": "",
             "descs": [
@@ -281,7 +281,7 @@
           {
             "id": "id_1765030884633_1pyp8kf0q",
             "photo": "assets/images/1765039200098__.png",
-            "name": "Kim, Dae-Sik",
+            "name": "Kim Daesik",
             "role": "",
             "desc": "",
             "descs": [
@@ -298,7 +298,7 @@
           {
             "id": "id_1765159590102_r2p9ew1p9",
             "photo": "assets/images/1765159603640__.png",
-            "name": "Sim, Jun-sik",
+            "name": "Sim Junsik",
             "role": "",
             "desc": "",
             "descs": [
@@ -308,7 +308,7 @@
           {
             "id": "id_1765791629680_jmfi56pnn",
             "photo": "assets/images/1765791645143__2.png",
-            "name": "Kang, Young-Se",
+            "name": "Kang Youngse",
             "role": "",
             "desc": "",
             "descs": [
@@ -678,7 +678,7 @@
         {
           "id": "id_1764646453095_1e0bdrv2w",
           "photo": "assets/images/1765039366780__.png",
-          "name": "Simon Seojoon Kim",
+          "name": "Kim Simon Seojoon ",
           "desc": "샘플1",
           "descs": [
             "CEO, HASHED"
@@ -730,7 +730,7 @@
         {
           "id": "id_1765184566635_hjyfe2faa",
           "photo": "assets/images/1765184579946__.png",
-          "name": "Sim Jun-Sik",
+          "name": "Sim Junsik",
           "desc": "",
           "descs": [
             "CEO, Bon Media"
@@ -775,7 +775,7 @@
         {
           "id": "id_1765183912874_utgatnbmg",
           "photo": "assets/images/1765183923299__.png",
-          "name": "Jason Ko",
+          "name": "Ko Jason",
           "desc": "",
           "descs": [
             "Senior Managing Director, FOCUS AI"
@@ -784,7 +784,7 @@
         {
           "id": "id_1765183881706_yx0fcrsz3",
           "photo": "assets/images/1765183902945__.png",
-          "name": "Kate Han",
+          "name": "Han Kate ",
           "desc": "",
           "descs": [
             "COO, Exxino"
@@ -805,7 +805,7 @@
           "name": "Park Sungwook",
           "desc": "",
           "descs": [
-            "CEO, CENGOLD"
+            "CO-CEO, CENGOLD"
           ]
         },
         {
@@ -861,7 +861,7 @@
             "id": "id_1764653653031_98dn7nj97",
             "time": "10:30",
             "title": "Opening",
-            "speakers": "**Lee Seung-hyun** Moderator, KBS Announcer",
+            "speakers": "**Lee Seunghyun** Moderator, KBS Announcer",
             "note": "* Opening video",
             "highlight": true
           },
@@ -869,7 +869,7 @@
             "id": "id_1764655464003_z6xj3ls4a",
             "time": "",
             "title": "Congratulatory Remarks and Messages",
-            "speakers": "**Park Heong-Joon** Mayor of Busan Metropolitan City",
+            "speakers": "**Park Heongjoon** Mayor of Busan Metropolitan City",
             "note": "",
             "highlight": false
           },
@@ -877,7 +877,7 @@
             "id": "id_1764655652616_iiurmg4os",
             "time": "",
             "title": "Opening Remarks",
-            "speakers": "**Kim Jeong-wook** MBN Managing Director\n**Son Young-shin** CEO of BUSANILBO",
+            "speakers": "**Son Youngshin** CEO of BUSANILBO\n**Kim Jeongwook** MBN Managing Director",
             "note": "",
             "highlight": false,
             "subtitle": ""
@@ -886,7 +886,7 @@
             "id": "id_1764655955804_c65ot0clb",
             "time": "",
             "title": "Welcome Address",
-            "speakers": "**Kim Sang-Min** CEO of Busan Digital Asset Nexus",
+            "speakers": "**Kim Sangmin** CEO of Busan Digital Asset Nexus",
             "note": "",
             "highlight": ""
           },
@@ -894,7 +894,7 @@
             "id": "id_1765028768207_xe0wb0jhs",
             "time": "",
             "title": "Congratulatory Speech",
-            "speakers": "**Park Soo-Young** National Assembly member at Busan Nam A, People Power Party\n**Min Byeong-deok** National Assembly member at\nAnyang Dongan-gu A, Democratic Party of Korea",
+            "speakers": "**Park SooYoung** National Assembly member at Busan Nam A, People Power Party\n**Min Byeongdeok** National Assembly member at\nAnyang Dongan-gu A, Democratic Party of Korea",
             "note": "",
             "highlight": false
           },
@@ -919,7 +919,7 @@
             "id": "id_1765029681623_pl0xnoqmb",
             "time": "",
             "title": "Asia's Digital Finance Hub 'Busan': New Financial Order Opens With RWA·Web3.0 Infrastructure",
-            "speakers": "**Simon Seojoon Kim** CEO of HASHED",
+            "speakers": "**Kim Simon Seojoon** CEO of HASHED",
             "note": "",
             "highlight": false
           },
@@ -935,7 +935,7 @@
             "id": "id_1765029758838_c4ctwari9",
             "time": "",
             "title": "Bdan Grand Open",
-            "speakers": "**Kim Sang-Min** CEO of Busan Digital Asset Nexus",
+            "speakers": "**Kim Sangmin** CEO of Busan Digital Asset Nexus",
             "note": "",
             "highlight": false
           },
@@ -943,13 +943,13 @@
             "id": "id_1765029819065_qz2mijqle",
             "time": "",
             "title": "Web3.0 Wallet Super App 'Bidan Pocket' ",
-            "speakers": "**Kim Sang-Min** CEO of Busan Digital Asset Nexus\n**Simon Seojoon Kim** CEO of HASHED\n**Lee Jung-Hee** Professor at Korea University's Graduate School of Information Security",
+            "speakers": "**Kim Sangmin** CEO of Busan Digital Asset Nexus\n**Kim Simon Seojoon** CEO of HASHED\n**Lee Junghee** Professor at Korea University's Graduate School of Information Security",
             "note": "* Moderator : Kim Ho-jin, CEO of Shadlab",
             "highlight": false
           },
           {
             "id": "id_1765029911846_hk0pyhtoi",
-            "time": "12:30 - 14:00",
+            "time": "12:15 - 14:00",
             "title": "Lunch Break",
             "speakers": "",
             "note": "",
@@ -959,15 +959,15 @@
             "id": "id_1765030055563_ww57xjpy9",
             "time": "14:00 -",
             "title": "Afternoon program session",
-            "speakers": "**Kim Yeh-ram** Brand Strategy & Global Communication Advisor of Wavebridge ",
-            "note": "* Moderator",
+            "speakers": "**Kim Yehram** Brand Strategy & Global Communication Advisor of Wavebridge ",
+            "note": "",
             "highlight": "blue"
           },
           {
             "id": "id_1765036846678_jjboop1e1",
             "time": "",
             "title": "Reimagining Gold On-Chain, led by ITCEN ",
-            "speakers": "**Lee Sang-yoon** CEO of Korea Gold Exchange Digital Asset",
+            "speakers": "**Yi Sangyoon** CEO of Korea Gold Exchange Digital Asset",
             "note": "",
             "highlight": false,
             "subtitle": "Rewriting the Value of Gold on-chain with ITCEN"
@@ -984,7 +984,7 @@
             "id": "id_1765036664580_n4q7me67r",
             "time": "",
             "title": "Innovators Creating a Digital Financial City: Story of Busan's Blockchain Industry Field",
-            "speakers": "**Sim Jun-Sik** CEO of Bon Media\n**Park Hyo-jin** CEO of Sejong DX\n**Ryu Hong-Yeoul** Co-Founder and CEO of BDACS",
+            "speakers": "**Sim Junsik** CEO of Bon Media\n**Park Hyojin** CEO of Sejong DX\n**Ryoo Hongyul** Co-Founder and CEO of BDACS",
             "note": "",
             "highlight": false
           },
@@ -992,7 +992,7 @@
             "id": "id_1765036824277_2sx05qput",
             "time": "",
             "title": "A new value exchange paradigm for mobile gifts, PopPop",
-            "speakers": "**Han In-suk** COO of Exxino",
+            "speakers": "**Han Kate** COO of Exxino",
             "note": "",
             "highlight": false
           },
@@ -1000,7 +1000,7 @@
             "id": "id_1765036894117_9wwrvpdcb",
             "time": "",
             "title": "Web3 Financial Infrastructure Innovation Connecting Cities and Digital Assets",
-            "speakers": "**Um Tae-gyeong** Managing Director of Ringnet",
+            "speakers": "**Eum Tae-kyeong** Managing Director of Ringnet",
             "note": "",
             "highlight": false
           },
@@ -1008,7 +1008,7 @@
             "id": "id_1765036926545_fto01n2vt",
             "time": "",
             "title": "A new journey for digital financial innovation in Korea begins",
-            "speakers": "**Jason Ko** Senior Managing Director, FOCUS AI",
+            "speakers": "**Ko Jason** Senior Managing Director, FOCUS AI",
             "note": "",
             "highlight": false
           },
@@ -1016,7 +1016,7 @@
             "id": "id_1765785436263_ubmtpu3cr",
             "time": "",
             "title": "Issuance and Liquidation of RWA Tokens",
-            "speakers": "**Sungwook Park** CEO, CENGOLD",
+            "speakers": "**Park Sungwook** Co-CEO, CENGOLD",
             "note": "",
             "highlight": false
           },
@@ -1024,7 +1024,7 @@
             "id": "id_1765036951466_q277b05kz",
             "time": "",
             "title": "Closing Remarks",
-            "speakers": "**Kim Sang-Min** CEO of Busan Digital Asset Nexus",
+            "speakers": "**Kim Sangmin** CEO of Busan Digital Asset Nexus",
             "note": "",
             "highlight": "red"
           }
