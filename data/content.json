@@ -834,6 +834,15 @@
           "descs": [
             "샤드랩 대표"
           ]
+        },
+        {
+          "id": "id_1766145543332_wf30ffg3w",
+          "photo": "assets/images/1766145603037_.jpeg",
+          "name": "엘레나 강",
+          "desc": "",
+          "descs": [
+            "Presto 사업전략 이사"
+          ]
         }
       ]
     },
@@ -996,7 +1005,7 @@
             "time": "",
             "title": "일본 자본시장 인프라가 그리는  글로벌 토큰화의 새로운 표준",
             "speakers": "**와카 신스케** 미쓰이물산 디지털금융 총괄\n**미네 키미히로** 피노젝트 대표",
-            "note": "",
+            "note": "*모더레이터 : 엘레나 강 Presto 사업전략 이사",
             "highlight": false
           },
           {
@@ -1036,6 +1045,14 @@
             "time": "",
             "title": "실물기반 기반의 RWA 토큰의 발행과 유동화",
             "speakers": "**박성욱** 센골드 공동대표",
+            "note": "",
+            "highlight": false
+          },
+          {
+            "id": "id_1766062815581_gj1ngkp0p",
+            "time": "",
+            "title": "",
+            "speakers": "**이성산** 솔라나 슈퍼팀 코리아 대표",
             "note": "",
             "highlight": false
           },

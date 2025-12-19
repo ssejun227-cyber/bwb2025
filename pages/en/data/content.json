@@ -816,6 +816,15 @@
           "descs": [
             "CEO, Shardlab"
           ]
+        },
+        {
+          "id": "id_1766145617961_9cijtu21a",
+          "photo": "assets/images/1766145626131_.jpeg",
+          "name": "Kang Elena",
+          "desc": "",
+          "descs": [
+            "Business Strategy Director of Presto Labs"
+          ]
         }
       ]
     },
@@ -977,7 +986,7 @@
             "time": "",
             "title": "A New Standard for Global Tokenization by Japan's Capital Market Infrastructure",
             "speakers": "**Waka Shinsuke** Mitsui & Co., Ltd. Executive Coordinator\n**Mine Kimihiro** CEO of Finoject",
-            "note": "",
+            "note": "*Moderator : Elena Kang, Business Strategy Director of Presto Labs",
             "highlight": false
           },
           {
@@ -1017,6 +1026,14 @@
             "time": "",
             "title": "Issuance and Liquidation of RWA Tokens",
             "speakers": "**Park Sungwook** Co-CEO, CENGOLD",
+            "note": "",
+            "highlight": false
+          },
+          {
+            "id": "id_1766062877077_c2o8nse2z",
+            "time": "",
+            "title": "",
+            "speakers": "**Scott Lee** Head of Korea, Solana Foundation",
             "note": "",
             "highlight": false
           },
