@@ -38,11 +38,11 @@
   },
   "hero": {
     "slides": [
-      "assets/images/1765195552688_1.jpg",
-      "assets/images/1765195555526_2.jpg",
-      "assets/images/1765195558611_3.jpg",
-      "assets/images/1765195561044_4.jpg",
-      "assets/images/1765195563849_5.jpg"
+      "assets/images/1767951147748_DSC07692.jpg",
+      "assets/images/1767951225714_DSC07310.jpg",
+      "assets/images/1767951243936_DSC07653.jpg",
+      "assets/images/1767951277516_DSC07914.jpg",
+      "assets/images/1767951317974_DSC09370.JPG"
     ],
     "logo": "assets/images/1765098896496_.png",
     "subtitle": "Blockchain Week in Busan",
@@ -69,12 +69,12 @@
     },
     {
       "id": "link1",
-      "text": "BWB2024 현장사진",
+      "text": "BWB2025 현장사진",
       "url": "pages/photo_kr/"
     },
     {
       "id": "link2",
-      "text": "BWB2024 언론보도",
+      "text": "BWB2025 언론보도",
       "url": "pages/media_kr/"
     }
   ],
@@ -214,16 +214,6 @@
             ]
           },
           {
-            "id": "id_1764936961367_2hsjljo5f",
-            "photo": "assets/images/1765038994738__.png",
-            "name": "김용범",
-            "role": "",
-            "desc": "(前) 대통령비서실 사이버특별보좌관",
-            "descs": [
-              "대통령실 정책실장"
-            ]
-          },
-          {
             "id": "id_1764937104894_a3r11dfbw",
             "photo": "assets/images/1765039006458__.png",
             "name": "임종인",
@@ -287,6 +277,16 @@
             "descs": [
               "국민의힘 부산 사상구",
               "국회의원"
+            ]
+          },
+          {
+            "id": "id_1767953771003_tiedeomz3",
+            "photo": "assets/images/1767953816091___.jpg",
+            "name": "안성민",
+            "role": "",
+            "desc": "",
+            "descs": [
+              "부산광역시의회 의장"
             ]
           }
         ]
@@ -486,129 +486,219 @@
     "logo": "",
     "featured": [
       {
-        "id": "id_1765270951627_to5od73gx",
-        "image": "assets/images/1765270980212_2024102711140466430_l.jpg",
-        "title": "블록체인 바닷속으로… BWB 개막",
-        "summary": "올해로 4회째를 맞는 ‘블록체인 위크 인 부산(BWB)’이 28일 부산 해운대구 시그니엘 부산에서 성대한 막을 올린다. 28~29일 이틀간의 일정으로 진행되는 BWB 2024는 ‘혁신 도시 부산에서 전 세계로’라는 슬로건 아래 ...",
+        "id": "id_1767947339692_u6rg0s86a",
+        "image": "assets/images/1767947345368_0001359481_001_20251222183811084.jpg",
+        "title": "BWB2025 ‘연결을 넘어, 결합으로’ 디지털금융 비전 선포",
+        "summary": "올해로 네 번째를 맞은 ‘블록체인 위크 인 부산’에서는 부산을 거점으로 한 디지털금융 인프라의 확장과 글로벌 결합, ‘디지털 시민권’이라는 화두가 집중 논의됐다. 부산디지털자산거래소(Bdan·비단)는 신규 서비스를 공개하며...",
         "source": "부산일보",
-        "date": "2024-10-27",
-        "url": "https://www.busan.com/view/busan/view.php?code=2024102718193485414"
+        "date": "2025-12-22",
+        "url": "https://n.news.naver.com/mnews/article/082/0001359481?sid=101"
       },
       {
-        "id": "id_1765271396201_mkhamb71d",
-        "image": "assets/images/1765271519223_news-p.v1.20241028.a450adb654cd43cba64a8f11792973e3_P1.png",
-        "title": "부산디지털자산거래소 ‘비단’ 출범···연내 서비스 시작",
-        "summary": "28일 시그니엘 부산에서 열린 ‘블록체인 위크 인 부산(BWB)2024’에서 부산디지털자산거래소는 공식 브랜드명인 비단(BDAN)을 발표하고 공식 출범식을 가졌다. 비단(Busan Digital Asset Nexus)은 ... ",
+        "id": "id_1767947384912_swd3lrojj",
+        "image": "assets/images/1767947389487_0001131746_001_20251222162206954.jpg",
+        "title": "“블록체인 도시 부산, 글로벌 선도 도시 모델 도약 가속화”… ‘BWB 2025’서 공개된 디지털 도시의 미래",
+        "summary": "부산디지털자산거래소(Bdan, 비단)는 블록체인 위크 인 부산 2025(BWB2025)를 시그니엘 부산 그랜드볼룸에서 개최했다고 22일 밝혔다. 남부권 최대 규모의 블록체인 콘퍼런스인 올해 BWB2025에는 블록체인·디지털자산 관련 기업인과 일반 시민 등 1천여 명이 참가한 가운데...",
+        "source": "조선비즈",
+        "date": "2025-12-22",
+        "url": "https://n.news.naver.com/mnews/article/366/0001131746?sid=101"
+      },
+      {
+        "id": "id_1767947445174_gmt5ujap2",
+        "image": "assets/images/1767947614234_KakaoTalk_20251226_091438391_01.jpg",
+        "title": "'모든 디지털 상품 자유롭게 교환' 부산디지털자산거래소, ‘비단 팝팝’ 론칭",
+        "summary": "[파이낸셜뉴스] 부산디지털자산거래소(Bdan·비단)는 혁신적인 디지털 상품권 거래 플랫폼 '비단 팝팝(POPPOP)'을 정식 론칭했다고 22일 밝혔다. 비단은 이날 개최된 블록체인 위크 인 부산 2025(BWB2025) 콘퍼런스에서 기존 상품권(기프트카드) 서비스의 한계를 넘어 사용자의 손해 없이 자유로운 교환이 가능한...",
+        "source": "파이낸셜뉴스",
+        "date": "2025-12-22",
+        "url": "https://n.news.naver.com/mnews/article/014/0005452326?sid=101"
+      },
+      {
+        "id": "id_1767948207676_onm0291wk",
+        "image": "assets/images/1767948320010_BWB2025.jpg",
+        "title": "‘연결을 넘어 결합으로’ BWB2025, 부산 블록체인 도시 방향 모색",
+        "summary": "블록체인이 도시의 실험 단계를 넘어 일상 인프라로 작동할 수 있을지를 가늠하는 논의의 장이 부산에서 열린다. 부산디지털자산거래소(Bdan·비단)는 오는 22일 시그니엘 부산 그랜드볼룸에서 ‘블록체인 위크 인 부산 2025(BWB2025)’를 개최한다고 15일 밝혔다...",
+        "source": "국민일보",
+        "date": "2025-12-22",
+        "url": "https://n.news.naver.com/mnews/article/005/0001820494?sid=101"
+      },
+      {
+        "id": "id_1767948394157_pvpahandh",
+        "image": "assets/images/1767948466321_0001359481_001_20251222183811084.jpg",
+        "title": "해시드-네이버-비단, 부산시민 일상 돕는 웹3 앱 만든다",
+        "summary": "부산 시민들이 민원, 행정 서비스를 간편하게 이용할 수 있는 웹3 기반 디지털지갑이 해시드와 네이버파이낸셜, 부산디지털자산거래소(이하 비단)의 협력 하에 내년에 선을 보인다. 이와 함께 디지털 금 투자 플랫폼인 센골드를 디지털 상품권까지 확장한...",
         "source": "매일경제",
-        "date": "2024-10-28",
-        "url": "https://www.mk.co.kr/news/economy/11152330"
+        "date": "2025-12-22",
+        "url": "https://n.news.naver.com/mnews/article/009/0005610100?sid=101"
       },
       {
-        "id": "id_1765271496993_jlhqfm6o4",
-        "image": "assets/images/1765271513081_2024102817221678843_l.jpg",
-        "title": "[BWB 2024] 범아시아권 디지털 자산거래소, 부산서 ‘동맹’ 맺었다",
-        "summary": "‘아시아 디지털 자산거래소 얼라이언스(ADEA)’가 블록체인 위크 인 부산(Blockchain Week in Busan) 2024에서 28일 공식 출범했다. ADEA는 일본·말레이시아... 아시아의 디지털 자산 시장에 단비가 될 것”이란 기대감을 ...",
+        "id": "id_1767948539577_3fx8kq05c",
+        "image": "assets/images/1767948578168_KakaoTalk_20251226_091431780_01.jpg",
+        "title": "부산디지털자산거래소 비단, 블록체인 위크서 공식 캐릭터 ‘비바부’ 선보여",
+        "summary": "부산디지털자산거래소(Bdan, 비단)는 새로운 공식 캐릭터 ‘비바부(VIVABU)’를 22일 공개했다. 비바부는 이날 개막한 블록체인 위크 인 부산 2025(BWB2025) 현장에서 처음 선보인 캐릭터로, 디지털 시대를 살아가는 시민과 이용자들에게 희망과 미래에 대한 긍정적인 메시지를 전하기 위해 기획...",
+        "source": "한국경제TV",
+        "date": "2025-12-22",
+        "url": "https://n.news.naver.com/mnews/article/215/0001235514?sid=101"
+      },
+      {
+        "id": "id_1767948874464_bc89l55xh",
+        "image": "assets/images/1767948958444_0001359492_001_20251222200015020.jpg",
+        "title": "“비단주머니, 330만 부산의 행정·금융·일상 서비스를 하나로” [블록체인 위크 인 부산]",
+        "summary": "부산디지털자산거래소(Bdan·비단)가 '블록체인 위크 인 부산 2025’(BWB 2025)에서 그랜드 오픈을 맞이해 신사업을 대거 공개했다. 330만 부산 시민 참여형 디지털 지갑 ‘비단주머니’와 상품권 거래 서비스 ‘비단 팝팝’ 등의 대규모...",
         "source": "부산일보",
-        "date": "2024-10-28",
-        "url": "https://www.busan.com/view/busan/view.php?code=2024102817225696597"
+        "date": "2025-12-22",
+        "url": "https://n.news.naver.com/mnews/article/082/0001359492?sid=101"
       },
       {
-        "id": "id_1765271580835_yqjjxcn0h",
-        "image": "assets/images/1765271608202_2024102917403473920_l.jpg",
-        "title": "부산디지털자산거래소 출범 ‘금융 허브’ 도약 이끈다",
-        "summary": "부산은 한국거래소와 예탁결제원 등 주요 금융기관이 있는 곳이고 블록체인규제자유특구인 데다 금융기회발전특구이기도 하다. 금융 허브를 지향함에 있어 기본 조건은 갖춘 셈이다. 거기다 이번에 디지털자산거래소까지 ...",
+        "id": "id_1767948961668_4ibp2vlpx",
+        "image": "assets/images/1767948967165_KakaoTalk_20251223_174105381.jpg",
+        "title": "김상민 대표 \"서울은 금융, 부산은 디지털금융…블록체인 도시 본격화\"",
+        "summary": "최근 시그니엘 부산에서 열린 '블록체인 위크 인 부산(BWB2025)' 행사에서 <뉴스1>과 만난 김상민 부산 디지털자산거래소(비단) 대표는 부산을 '한국 블록체인 산업 혁신의 출발점'으로 규정했다. 조선·중공업·자동차·제철 산업이 '부·울·경(부산·울산·경남)' 지역에서 시작됐고, 삼성 역시 부산에서 출발했다는 설명이다. 김 대표는 \"한강의 기적은 사실 낙동강 주변 도시들의 성과가 집약된 결과\"라고...",
+        "source": "뉴스1",
+        "date": "2025-12-23",
+        "url": "https://n.news.naver.com/mnews/article/421/0008677755?sid=101"
+      },
+      {
+        "id": "id_1767949971571_m3ier5i6l",
+        "image": "assets/images/1767949992751_0001359493_001_20251222200019429.jpg",
+        "title": "전국서 가장 큰 대학생 서포터스, 글로벌허브도시특별법 1만 3000명 서명 주도 [블록체인 위크 인 부산]",
+        "summary": "부산 시민의 염원을 담은 ‘글로벌허브도시특별법’ 지지 서명 캠페인을 벌여온 대학생 서포터스 ‘비욘드 부산’(Beyond Busan)의 발대식이 '블록체인 위크 인 부산 2025’(BWB 2025)에서 진행됐다. 특히 부산디지털자산거래소(Bdan·비단)의 새로운 공식...",
         "source": "부산일보",
-        "date": "2024-10-30",
-        "url": "https://www.busan.com/view/busan/view.php?code=2024102917540693501"
-      },
-      {
-        "id": "id_1765271620394_p2jgtwati",
-        "image": "assets/images/1765271642392_01.38481980.1.jpg",
-        "title": "“블록체인에 진심인 부산”…RWA 통해 도시 혁신 모색한다 [BWB 2024]",
-        "summary": "박형준 부산시장이 BWB2024에 참여해 블록체인 기술 접목 계획에 대해 발표하고 있다. 한편 도시 차원에서의 혁신을 노리는 만큼 부산의 국회의원들도 뜻을 한 곳에 모았다. 부산의 국회의원 17명은 지난 5월 ...",
-        "source": "한국경제",
-        "date": "2024-10-30",
-        "url": "https://www.hankyung.com/article/202410308540g"
+        "date": "2025-12-22",
+        "url": "https://n.news.naver.com/mnews/article/082/0001359493?sid=101"
       }
     ],
     "articles": [
       {
-        "id": "id_1765271658573_qldu8a5d0",
-        "source": "한국경제",
-        "title": "부산 '디지털금융·블록체인 허브'로 부상",
-        "url": "https://www.hankyung.com/article/2024102969611"
+        "id": "id_1767949053527_4imd4h832",
+        "source": "매일경제",
+        "title": "부산서 내년 웹3 디지털지갑 출시",
+        "url": "https://n.news.naver.com/mnews/article/009/0005610282?sid=105"
       },
       {
-        "id": "id_1765271680316_s3aishlie",
+        "id": "id_1767950465078_vkn1j5ujs",
         "source": "부산일보",
-        "title": "[BWB 2024] 부산디지털자산거래소, 새 브랜드명 ‘비단’ 공식 출범",
-        "url": "https://www.busan.com/view/busan/view.php?code=2024102814033657911"
+        "title": "https://n.news.naver.com/mnews/article/082/0001359496?sid=101",
+        "url": "https://n.news.naver.com/mnews/article/082/0001359496?sid=101"
       },
       {
-        "id": "id_1765271699520_9fcyaoyl1",
-        "source": "이데일리",
-        "title": "디지털자산 거래 중심지 꿈꾸는 부산…든든한 뒷배는 '이곳'",
-        "url": "https://www.edaily.co.kr/News/Read?newsId=04414886639057840&mediaCodeNo=257&OutLnkChk=Y"
+        "id": "id_1767950501947_uqofle969",
+        "source": "서울신문",
+        "title": "부산디지털자산거래소 비단, BWB2025서 디지털 상품권 거래 서비스 ‘비단 팝���’ 론칭",
+        "url": "https://n.news.naver.com/mnews/article/081/0003602999?sid=101"
       },
       {
-        "id": "id_1765272044064_cvcgnsb5j",
-        "source": "부산일보",
-        "title": "[BWB 2024] 범아시아권 디지털 자산거래소, 부산서 ‘동맹’ 맺었다",
-        "url": "https://www.busan.com/view/busan/view.php?code=2024102817225696597"
+        "id": "id_1767950659776_z0i89q7ll",
+        "source": "더팩트",
+        "title": "[인터뷰] 김상민 비단 대표 \"웹3 지갑 '비단주머니'로 부산 디지털 도시 구현한다\"",
+        "url": "https://n.news.naver.com/mnews/article/629/0000455909?sid=101"
       },
       {
-        "id": "id_1765272064785_wue2q0pl1",
-        "source": "부산일보",
-        "title": "“부산, 디지털금융 날개 달아 글로벌 허브도시로 비상하자” [블록체인 위크 인 부산]",
-        "url": "https://www.busan.com/view/busan/view.php?code=2024102818261587490"
+        "id": "id_1767950660957_49ntnpusz",
+        "source": "헤럴드경제",
+        "title": "부산디지털자산거래소 비단(Bdan), BWB2025서 웹3 수퍼앱 디지털지갑 ‘비단주머니’ 청사진 공개",
+        "url": "https://n.news.naver.com/mnews/article/016/0002575776?sid=101"
       },
       {
-        "id": "id_1765272086779_3u1npupln",
-        "source": "뉴시스",
-        "title": "'상장 분리 심사' 부산디지털자산거래소…\"실물자산 창의성 봐야\"",
-        "url": "https://www.newsis.com/view/NISX20241029_0002938864"
-      },
-      {
-        "id": "id_1765272114211_hkpby9spt",
-        "source": "뉴스1",
-        "title": "김상민 \"부산디지털자산거래소, 부산 청년 일자리 창출의 해답\"[인터뷰]",
-        "url": "https://www.news1.kr/finance/blockchain-fintech/5583406"
-      },
-      {
-        "id": "id_1765272138912_z3l5y1vsq",
-        "source": "이투데이",
-        "title": "‘분권형거래소’ 표방한 비단(BDAN)…시장감시·상장심사·예탁결제 분리",
-        "url": "https://www.etoday.co.kr/news/view/2414217"
-      },
-      {
-        "id": "id_1765272160830_uqgbeq5rv",
+        "id": "id_1767950661876_ctt4l5jln",
         "source": "전자신문",
-        "title": "[BWB2024] '분권형 거래소' 전문가 대담 개최…BDAN 중심 차세대 비전 조명",
-        "url": "https://www.etnews.com/20241029000218"
+        "title": "“블록체인 도시 부산, 글로벌 선도 도시모델 도약 가속화”…'BWB 2025'서 공개된 디지털 도시의 미래",
+        "url": "https://n.news.naver.com/mnews/article/030/0003383255?sid=101"
       },
       {
-        "id": "id_1765272178409_zshas533p",
-        "source": "국민일보",
-        "title": "“부산을 디지털금융·블록체인 허브로”… BWB 2024 개막 ",
-        "url": "https://www.kmib.co.kr/article/view.asp?arcid=1730012847&code=11131418&cp=nv"
+        "id": "id_1767950662777_alcl8o3u3",
+        "source": "한국경제",
+        "title": "해시드·BDAN, '비단주머니' 기반 지역 특화 블록체인 슈퍼앱 논의",
+        "url": "https://n.news.naver.com/mnews/article/015/0005227595?sid=101"
       },
       {
-        "id": "id_1765272194764_ssf9yap4a",
-        "source": "조선비즈",
-        "title": "\"부산을 글로벌 블록체인 허브로\"… 블록체인 위크 인 부산(BWB) 2024 개막",
-        "url": "https://biz.chosun.com/stock/finance/2024/10/28/V2SQSCBELBHAVKD5PTFAWNH5J4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+        "id": "id_1767950663591_4b6t20dt4",
+        "source": "딜사이트",
+        "title": "실행 분기점에 선 부산…웹3·디지털 금융 '본격화'",
+        "url": "https://dealsite.co.kr/articles/153737"
       },
       {
-        "id": "id_1765272231041_ggppfxm73",
+        "id": "id_1767950664728_se0uucpf6",
+        "source": "아시아투데이",
+        "title": "부산 디지털자산거래소-해시드, 웹3·지역 기반 ‘비단주머니’ 공개",
+        "url": "https://www.asiatoday.co.kr/kn/view.php?key=20251222010011880"
+      },
+      {
+        "id": "id_1767950757367_svdzxa5xc",
+        "source": "뉴스1",
+        "title": "부산 디지털자산거래소, 웹3 지갑 '비단주머니' 공개",
+        "url": "https://n.news.naver.com/mnews/article/421/0008673953?sid=101"
+      },
+      {
+        "id": "id_1767950758198_hqjbv2us5",
         "source": "이투데이",
-        "title": "BWB 2024 개막…박형준 부산시장 “부산, 블록체인으로 글로벌 허브될 것”",
-        "url": "https://www.etoday.co.kr/news/view/2413652"
+        "title": "'지갑 하나로 행정·결제·관광까지'… 부산서 웹3 시민 플랫폼 '비단주머니' 실험",
+        "url": "https://www.etoday.co.kr/news/view/2538743"
       },
       {
-        "id": "id_1765272271686_lwcldofc9",
-        "source": "연합뉴스",
-        "title": "\"부산을 블록체인 허브도시로\"…'BWB 2024' 28일 개막",
-        "url": "https://www.yna.co.kr/view/AKR20241021106400051?input=1195m"
+        "id": "id_1767950759046_8yvp9unjx",
+        "source": "한국정경신문",
+        "title": "[인터뷰] 김상민 Bdan 대표 “부산,세계 1등 디지털 도시 만들고파\"",
+        "url": "https://kpenews.com/View.aspx?No=3901870"
+      },
+      {
+        "id": "id_1767950826779_h8nqojycg",
+        "source": "아이뉴스24",
+        "title": "김서준 해시드 대표·오카베 JPYC 대표, 부산 찾는다…디지털금융 비전 제시",
+        "url": "https://n.news.naver.com/mnews/article/031/0000990091?sid=102"
+      },
+      {
+        "id": "id_1767950828173_rm5xas8wh",
+        "source": "데일리한국",
+        "title": "BWB2025서 ‘비단주머니’ 1차 개발 버전 공개… 블록체인 시티 부산 핵심 인프라 제시",
+        "url": "https://daily.hankooki.com/news/articleView.html?idxno=1313282"
+      },
+      {
+        "id": "id_1767950878019_9jio4mrqk",
+        "source": "CNB뉴스",
+        "title": "부산서 블록체인 미래 청사진 제시…‘BWB2025’ 성황",
+        "url": "https://www.cnbnews.com/news/article.html?no=769171"
+      },
+      {
+        "id": "id_1767950899719_1yp792zgd",
+        "source": "이데일리",
+        "title": "디지털자산 미래 논한다…오늘 ‘블록체인 위크 인 부산’ 개최",
+        "url": "https://n.news.naver.com/mnews/article/018/0006187596?sid=101"
+      },
+      {
+        "id": "id_1767950900544_a4h5kn2jt",
+        "source": "뉴스프리존",
+        "title": "[현장] 블록체인 중심 디지털 도시 미래상 그리는 부산",
+        "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=665385"
+      },
+      {
+        "id": "id_1767950901329_w0gibax5z",
+        "source": "브릿지경제",
+        "title": "“연결을 넘어 결합으로”… 부산서 그린 웹3 도시의 설계도",
+        "url": "https://www.viva100.com/article/20251222501524"
+      },
+      {
+        "id": "id_1767950902138_g6ul4wj8h",
+        "source": "서울경제",
+        "title": "부산 자주 올수록 혜택…K컬처 팬 겨냥 원화코인 지갑",
+        "url": "https://n.news.naver.com/mnews/article/011/0004570241?sid=101"
+      },
+      {
+        "id": "id_1767950975958_t87bicwdm",
+        "source": "바이라인네트워크",
+        "title": "https://byline.network/2025/12/1222-2/",
+        "url": "부산디지털자산거래소, 디지털상품권 거래 플랫폼 ‘비단팝팝’ 론칭"
+      },
+      {
+        "id": "id_1767951008482_324vbisxn",
+        "source": "토큰포스트",
+        "title": "부산디지털자산거래소, BWB2025 성료…‘비단주머니’·‘비단 팝팝’ 공개",
+        "url": "https://www.tokenpost.kr/news/blockchain/317688"
+      },
+      {
+        "id": "id_1767951026158_1nb01vyuf",
+        "source": "한스경제",
+        "title": "'부의 요정’ 비바부, 부산 블록체인 특구의 미래 비전과 자산 가치 담은 메신저 공개",
+        "url": "https://www.hansbiz.co.kr/news/articleView.html?idxno=802750"
       }
     ]
   },
@@ -620,32 +710,95 @@
       {
         "id": "day1",
         "label": "Photos",
-        "date": "10/29~30",
+        "date": "12/22",
         "slides": [
           {
             "id": "slide1-1",
             "title": "BWB2024 하이라이트1",
             "photos": [
-              "assets/images/1765272507278_1.jpg",
-              "assets/images/1765272507302_2.jpg",
-              "assets/images/1765272507326_3.jpg",
-              "assets/images/1765272507342_4.jpg",
-              "assets/images/1765272507404_5.jpg",
-              "assets/images/1765283348552_2024102814552628151.jpg",
-              "assets/images/1765283409028_2024102814552197481.jpg"
+              "assets/images/1767953122449_DSC07310.jpg",
+              "assets/images/1767953124560_DSC07580.jpg",
+              "assets/images/1767953125401_DSC07653.jpg",
+              "assets/images/1767953125704_DSC07692.jpg",
+              "assets/images/1767953135998_DSC04777.jpg",
+              "assets/images/1767953142929_DSC07637.jpg",
+              "assets/images/1767953687263_DSC09370.JPG"
             ]
           },
           {
             "id": "id_1764612382702_uez2xz18u",
             "title": "BWB2024 하이라이트2",
             "photos": [
-              "assets/images/1765283394262_5.jpg",
-              "assets/images/1765283395108_2024102814484909052.jpg",
-              "assets/images/1765283395386_2024102814495523151.jpg",
-              "assets/images/1765283395589_2024102814511110479.jpg",
-              "assets/images/1765283395688_2024102814523761864.jpg",
-              "assets/images/1765283395883_2024102815003453219.jpg",
-              "assets/images/1765283396636_JA505847.jpg"
+              "assets/images/1767953193538_DSC07315.jpg",
+              "assets/images/1767953194512_DSC07331.jpg",
+              "assets/images/1767953194814_DSC07336.jpg",
+              "assets/images/1767953195157_DSC07356.jpg",
+              "assets/images/1767953195472_DSC07369.jpg",
+              "assets/images/1767953195799_DSC07683.jpg"
+            ]
+          },
+          {
+            "id": "id_1767953056891_qxbjqbaoq",
+            "title": "BWB2024 하이라이트3",
+            "photos": [
+              "assets/images/1767953243289_DSC07671.jpg",
+              "assets/images/1767953243885_DSC07724.jpg",
+              "assets/images/1767953244193_DSC07784.jpg",
+              "assets/images/1767953244540_DSC07852.jpg",
+              "assets/images/1767953244889_DSC07871.jpg",
+              "assets/images/1767953260402_DSC04657.jpg"
+            ]
+          },
+          {
+            "id": "id_1767953058396_4a955u3p2",
+            "title": "BWB2024 하이라이트4",
+            "photos": [
+              "assets/images/1767953280068_DSC04683.jpg",
+              "assets/images/1767953281291_DSC04704.jpg",
+              "assets/images/1767953283124_DSC04763.jpg",
+              "assets/images/1767953286360_DSC08031.jpg",
+              "assets/images/1767953292239_DSC07939.jpg",
+              "assets/images/1767953318931_DSC04722.jpg"
+            ]
+          },
+          {
+            "id": "id_1767953059306_9nqyhryij",
+            "title": "BWB2024 하이라이트5",
+            "photos": [
+              "assets/images/1767953361953_DSC04961.jpg",
+              "assets/images/1767953395291_DSC08188.jpg",
+              "assets/images/1767953443681_DSC04814.jpg",
+              "assets/images/1767953446048_DSC04843.jpg",
+              "assets/images/1767953447763_DSC04856.jpg",
+              "assets/images/1767953450398_DSC04859.jpg"
+            ]
+          },
+          {
+            "id": "id_1767953060146_svuswkwfp",
+            "title": "BWB2024 하이라이트6",
+            "photos": [
+              "assets/images/1767953518126_DSC04996.jpg",
+              "assets/images/1767953520357_DSC05025.jpg",
+              "assets/images/1767953521957_DSC05071.jpg",
+              "assets/images/1767953524117_DSC05086.jpg",
+              "assets/images/1767953526220_DSC05120.jpg",
+              "assets/images/1767953528556_DSC05134.jpg",
+              "assets/images/1767953549502_DSC05161.jpg",
+              "assets/images/1767953551391_DSC05180.jpg"
+            ]
+          },
+          {
+            "id": "id_1767953557477_9nygdnhm8",
+            "title": "BWB2024 하이라이트7",
+            "photos": [
+              "assets/images/1767953628977_DSC05204.jpg",
+              "assets/images/1767953631582_DSC05215.jpg",
+              "assets/images/1767953634061_DSC05262.jpg",
+              "assets/images/1767953635315_DSC05283.jpg",
+              "assets/images/1767953636697_DSC05289.jpg",
+              "assets/images/1767953638384_DSC05293.jpg",
+              "assets/images/1767953640387_DSC05324.jpg",
+              "assets/images/1767953642616_DSC05337.jpg"
             ]
           }
         ]
@@ -775,7 +928,7 @@
         {
           "id": "id_1765178613878_mleie7o9s",
           "photo": "assets/images/1765178642266__.png",
-          "name": "이상윤",
+          "name": "���상윤",
           "desc": "",
           "descs": [
             "한국금거래소 디지털애셋 대표"
